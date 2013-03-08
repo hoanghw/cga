@@ -1,16 +1,17 @@
 package cga.algorithm;
 
-public class Algorithm {
+public class Util {
 	
-	public static void naive(){
+	public static void parser(){
 		
 	}
-	public static void generalAssignment(){
+	public static void calculateUtitlity(){
 		
 	}
-	public static void csp(){
+	public static void calculateCost(String parameter){
 		
 	}
+	
 	/**
 	 * @param args
 	 */
