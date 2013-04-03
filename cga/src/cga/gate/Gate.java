@@ -1,11 +1,18 @@
 package cga.gate;
 
 public class Gate {
-	int price;
-	int capacity;
-	String[] propertyOf;
+	Set compatible;
+	Airline airline;
 	
-	public Gate(){
+	public Gate(Airline _airline){
+		airline = _airline;
+	}
+
+	public boolean canBeAssigned(Flight flight) {
+		id = flight.id();
+		flightAirline = flight.airline();
+		return compatible.contains(id)&((airline.equals(flightAirline)|(airline.equals("collaborative")){
+		}
 	}
 	
 	/**
@@ -13,7 +20,6 @@ public class Gate {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 
 }
