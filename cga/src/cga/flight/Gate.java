@@ -1,4 +1,5 @@
-package cga.gate;
+package cga.flight;
+import java.util.*;
 
 public class Gate {
 	Set compatible;
@@ -9,10 +10,9 @@ public class Gate {
 	}
 
 	public boolean canBeAssigned(Flight flight) {
-		id = flight.id();
-		flightAirline = flight.airline();
-		return compatible.contains(id)&((airline.equals(flightAirline)|(airline.equals("collaborative")){
-		}
+		int id = flight.id;
+		String flightAirline = flight.airline.name;
+		return compatible.contains(id)&((airline.equals(flightAirline)|(airline.equals("collaborative"))));
 	}
 	
 	/**

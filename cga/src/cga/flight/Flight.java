@@ -1,10 +1,9 @@
 package cga.flight;
-import java.util.Date;
-import cga.gate.*;
+import java.util.*;
 
 public class Flight {
 	int id;				// Flight Number
-	String airline;		// Name of airline
+	Airline airline;		// Name of airline
 	Date aTime;			// Time of arrival
 	Date dTime;			// Time of departure
 	int capacity;		// Total carrying capacity
@@ -15,7 +14,7 @@ public class Flight {
 	Gate gate;			// Gate that the flight is assigned to
 	int priority;		// Priority in gate assignment algorithm
 	
-	public Flight(int _id, String _airline, Date _aTime, Date _dTime, int _capacity, int _aPax, int _dPax, String _equipType){
+	public Flight(int _id, Airline _airline, Date _aTime, Date _dTime, int _capacity, int _aPax, int _dPax, String _equipType){
 		id = _id;
 		airline = _airline;
 		aTime = _aTime;
@@ -31,18 +30,19 @@ public class Flight {
 	}
 
 	public Date getArrivalTime(){
-		aTime + delay
+		//aTime + delay
+		return null;
 	}
 
 	public Date getDepartureTime(){
-		dTime + delay
+		//dTime + delay
+		return null;
 	}
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 
 }

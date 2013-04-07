@@ -1,3 +1,6 @@
+package cga.flight;
+import java.util.*;
+
 public class Airline {
 	String name;
 
@@ -9,14 +12,15 @@ public class Airline {
 		return name;
 	}
 
-	public Gate[] getGates(Airport airport){
-		allGates = airport.getGates()
-		Gate[] airportGates;
-		for(int i = 0, i < length(allGates), i++) {
-			if allGates[i].getAirline.equals(name) {
-				airportGates.append(allgates[i])
+	public ArrayList<Gate> getGates(Airport airport){
+		ArrayList<Gate> allGates = airport.gates;
+		ArrayList<Gate> airportGates = new ArrayList<Gate>();
+		for(int i = 0; i < allGates.size(); i++) {
+			if (allGates.get(i).airline.equals(name)) {
+				airportGates.add(allGates.get(i));
 			}
 		}
+		return airportGates;
 	}
 		/**
 	 * @param args

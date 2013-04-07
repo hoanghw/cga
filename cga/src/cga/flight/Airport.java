@@ -1,12 +1,15 @@
+package cga.flight;
+import java.util.*;
+
 public class Airport{
 		String name;
-		Gate[] gates;
-		Flight[] flights;
-		Hashmap<Flight,Gate> gateMapping;
+		ArrayList<Gate> gates;
+		ArrayList<Flight> flights;
+		HashMap<Flight,Gate> gateMapping;
 
-	public Airport(String _name, Gate[] _gates){
+	public Airport(String _name, ArrayList<Gate> _gates){
 		name = _name;
-		gates = _gates.copy();
+		gates = _gates; //DANGER?!
 	}
 		/**
 	 * @param args

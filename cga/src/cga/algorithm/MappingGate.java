@@ -1,7 +1,6 @@
 package cga.algorithm;
 import java.util.Date;
 import java.util.HashMap;
-import cga.gate.*;
 import cga.flight.*;
 
 public class MappingGate {

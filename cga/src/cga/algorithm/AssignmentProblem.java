@@ -1,5 +1,5 @@
 package cga.algorithm;
-
+import cga.*;
 
 /*************************************************************************
  *  Compilation:  javac AssignmentProblem.java
@@ -8,17 +8,18 @@ package cga.algorithm;
  *
  *  Solve an N-by-N assignment problem in N^3 log N time using the
  *  successive shortest path algorithm.
- *
- *  Remark: could use dense version of Dijsktra's algorithm for
- *  improved theoretical efficiency of N^3, but it doesn't seem to
- *  help in practice.
- *
+
  *  Assumes N-by-N cost matrix is nonnegative.
- *
- *
  *********************************************************************/
 
 public class AssignmentProblem {
+
+public static void main(String[] args) {
+
+}
+
+}
+/***
     private static final int UNMATCHED = -1;
 
     private int N;              // number of rows and columns
@@ -55,6 +56,30 @@ public class AssignmentProblem {
         assert check();
     }
 
+    public static void main(String[] args) {
+        In in = new In(args[0]);
+        int N = in.readInt();
+        double[][] weight = new double[N][N];
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                weight[i][j] = in.readDouble();
+            }
+        }
+
+        AssignmentProblem assignment = new AssignmentProblem(weight);
+        StdOut.println("weight = " + assignment.weight());
+        for (int i = 0; i < N; i++)
+            StdOut.println(i + "-" + assignment.sol(i) + "' " + weight[i][assignment.sol(i)]);
+
+        for (int i = 0; i < N; i++)
+            StdOut.println("px[" + i + "] = " + assignment.dualRow(i));
+        for (int j = 0; j < N; j++)
+            StdOut.println("py[" + j + "] = " + assignment.dualCol(j));
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < N; j++)
+                StdOut.println("reduced[" + i + "-" + j + "] = " + assignment.reduced(i, j));
+    }
+
     // find shortest augmenting path and upate
     private void augment() {
 
@@ -81,15 +106,16 @@ StdOut.print("path: ");
 
         // augment along alternating path
         for (DirectedEdge e : spt.pathTo(t)) {
-if      (e.from() == 2*N) StdOut.print("s - ");
-else if (e.from() <    N) StdOut.print(e.from() + " - ");
-else                      StdOut.print((e.from()-N) + "' - ");
+            if (e.from() == 2*N) StdOut.print("s - ");
+            else if (e.from() < N) StdOut.print(e.from() + " - ");
+            else StdOut.print((e.from()-N) + "' - ");
             int i = e.from(), j = e.to() - N;
             if (i < N) {
                 xy[i] = j;
                 yx[j] = i;
             }
         }
+
 StdOut.println("t");
 
         // update dual variables
@@ -183,35 +209,9 @@ StdOut.println("t");
         return true;
     }
 
-
     // check optimality conditions
     private boolean check() {
         return isPerfectMatching() && isDualFeasible() && isComplementarySlack();
     }
-
-    public static void main(String[] args) {
-        In in = new In(args[0]);
-        int N = in.readInt();
-        double[][] weight = new double[N][N];
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                weight[i][j] = in.readDouble();
-            }
-        }
-
-        AssignmentProblem assignment = new AssignmentProblem(weight);
-        StdOut.println("weight = " + assignment.weight());
-        for (int i = 0; i < N; i++)
-            StdOut.println(i + "-" + assignment.sol(i) + "' " + weight[i][assignment.sol(i)]);
-
-        for (int i = 0; i < N; i++)
-            StdOut.println("px[" + i + "] = " + assignment.dualRow(i));
-        for (int j = 0; j < N; j++)
-            StdOut.println("py[" + j + "] = " + assignment.dualCol(j));
-        for (int i = 0; i < N; i++)
-            for (int j = 0; j < N; j++)
-                StdOut.println("reduced[" + i + "-" + j + "] = " + assignment.reduced(i, j));
-
-    }
-
 }
+***/
