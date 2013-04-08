@@ -22,6 +22,7 @@ public class Airline {
 		}
 		return airportGates;
 	}
+	
 		/**
 	 * @param args
 	 */

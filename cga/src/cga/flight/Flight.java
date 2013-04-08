@@ -1,7 +1,7 @@
 package cga.flight;
 import java.util.*;
 
-public class Flight {
+public class Flight implements Comparable<Flight> {
 	int id;				// Flight Number
 	Airline airline;		// Name of airline
 	Date aTime;			// Time of arrival
@@ -10,7 +10,10 @@ public class Flight {
 	int aPax;			// # arriving passengers
 	int dPax;			// # departing passengers
 	String equipType;	// The type of aircraft
-	float delay = 0;	// Time delay
+	long delay = 0;	// Time delay in minutes
+	
+	public Date realATime;
+	public Date realDTime;
 	Gate gate;			// Gate that the flight is assigned to
 	int priority;		// Priority in gate assignment algorithm
 	
@@ -23,21 +26,47 @@ public class Flight {
 		aPax = _aPax;
 		dPax = _dPax;
 		equipType = _equipType;
+		
+		realATime = new Date(aTime.getTime()+delay*60000);
+		realDTime = new Date(dTime.getTime()+delay*60000);
 		}
-
-	public void setDelay(float _delay){
-		delay = _delay;
+	
+	public Flight(int _id, Date _aTime, Date _dTime){
+		id = _id;
+		airline = new Airline("DUMMY");
+		aTime = _aTime;
+		dTime = _dTime;
+		capacity = 1000;
+		aPax = 1000;
+		dPax = 1000;
+		equipType = "DUMMY";
+		
+		realATime = new Date(aTime.getTime()+delay*60000);
+		realDTime = new Date(dTime.getTime()+delay*60000);
+		}
+	public static Flight copy(Flight f){
+		return new Flight(f.id,f.airline,f.aTime,f.dTime,f.capacity,f.aPax,f.dPax,f.equipType);
+	}
+	
+	public void setDelay(){
+		return;
 	}
 
 	public Date getArrivalTime(){
 		//aTime + delay
-		return null;
+		return realATime;
 	}
 
 	public Date getDepartureTime(){
 		//dTime + delay
-		return null;
+		return realDTime;
 	}
+	
+	@Override
+    public int compareTo(Flight otherFlight){
+        return this.realATime.compareTo(otherFlight.realATime);
+    }
+	
 	/**
 	 * @param args
 	 */
