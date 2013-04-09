@@ -9,6 +9,7 @@ import cga.flight.Gate;
 
 public class Util {
 	
+	//naive populate gates with flights
 	public static MappingGate populateGates(Gate[] gates, Flight[] flights){
 		MappingGate result = new MappingGate(gates);
 		
@@ -26,9 +27,30 @@ public class Util {
 		return result;
 	}
 	
-	public static Gate findGate(Gate[] gates, Flight flight){
+	//given a flight, determine the best gate solution
+	//for now: assign flight to the least busy gate & least waitTimeAtGate
+	public static Gate findGate(Gate[] gates, Flight f){
+		IndexMinPQ<Long> pq = new IndexMinPQ<Long>(gates.length);
+		for (int i=0;i<gates.length;i++){
+			pq.insert(i, gates[i].totalOccupiedTime());
+		}
 		
-		return new Gate(); //not done
+		long leastWaitTime = 777777;
+		int gateIndex = 0;
+		while (!pq.isEmpty()){
+			int i = pq.delMin();
+			if (gates[i].assignFlight(f)){
+				return gates[i];
+			}
+			else {
+				if (leastWaitTime < gates[i].waitTimeAtGate(f)){
+					leastWaitTime = gates[i].waitTimeAtGate(f);
+					gateIndex = i;
+				}
+			}
+				
+		}
+		return gates[gateIndex];
 	}
 	
 	public static void parser(){

@@ -66,7 +66,10 @@ public class Flight implements Comparable<Flight> {
     public int compareTo(Flight otherFlight){
         return this.realATime.compareTo(otherFlight.realATime);
     }
-	
+	@Override
+	public String toString(){
+		return ""+this.id;
+	}
 	/**
 	 * @param args
 	 */
