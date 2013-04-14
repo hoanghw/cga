@@ -1,0 +1,989 @@
+PUBLISHED CARRIER,OPERATOR,ORIGIN,Continent,FLIGHT NUMBER,EQUIP TYPE,ARRIVAL TIME,DEST TERM,Inbound,Outbound
+Aer Lingus,Aer Lingus,"Dublin, IE",Europe,133,332,1300,E ,267.0,
+Aer Lingus,Aer Lingus,"Dublin, IE",Europe,136,330,1825,E ,,322.0
+Aer Lingus,Aer Lingus,"Dublin, IE",Europe,137,330,1615,E ,322.0,
+Aer Lingus,Aer Lingus,"Dublin, IE",Europe,138,332,2050,E ,,267.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,354,E75,0815,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,355,E90,0630,B ,,97.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,356,E75,1026,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,357,E75,0850,B ,,73.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,358,E75,1314,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,359,E75,1105,B ,,73.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,360,E75,1501,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,361,E75,1350,B ,,73.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,362,E75,1621,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,363,E75,1540,B ,,73.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,364,E75,1748,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,365,E75,1700,B ,,73.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,366,E75,1918,B ,73.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,367,E75,1825,B ,,73.0
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,368,E90,2152,B ,97.0,
+Air Canada,Air Canada,"Toronto, ON, CA",Canada,369,E75,1955,B ,,73.0
+Air Canada,Jazz Air,"Halifax, NS, CA",Canada,8891,CRJ,1226,B ,50.0,
+Air Canada,Jazz Air,"Halifax, NS, CA",Canada,8892,CRJ,1300,B ,,50.0
+Air Canada,Jazz Air,"Halifax, NS, CA",Canada,8893,CRJ,0854,B ,50.0,
+Air Canada,Jazz Air,"Halifax, NS, CA",Canada,8894,CRJ,0800,B ,,50.0
+Air Canada,Jazz Air,"Halifax, NS, CA",Canada,8895,CRJ,1656,B ,50.0,
+Air Canada,Jazz Air,"Halifax, NS, CA",Canada,8896,CRJ,1730,B ,,50.0
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7678,CRJ,0727,B ,50.0,
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7679,DH4,0715,B ,,74.0
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7681,CRJ,0950,B ,,50.0
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7682,DH4,1235,B ,74.0,
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7684,DH4,1615,B ,74.0,
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7685,DH4,1315,B ,,74.0
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7686,CRJ,1922,B ,50.0,
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7687,DH4,1655,B ,,74.0
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7688,DH4,2115,B ,74.0,
+Air Canada,Jazz Air,"Montreal-PET, QC, CA",Canada,7689,CRJ,1805,B ,,50.0
+Air Canada,Jazz Air,"Ottawa, ON, CA",Canada,8044,CRJ,0917,B ,50.0,
+Air Canada,Jazz Air,"Ottawa, ON, CA",Canada,8045,CRJ,0925,B ,,50.0
+Air Canada,Jazz Air,"Ottawa, ON, CA",Canada,8048,CRJ,1732,B ,50.0,
+Air Canada,Jazz Air,"Ottawa, ON, CA",Canada,8049,CRJ,2005,B ,,50.0
+Air France,Air France,"Paris-De Gaulle, FR",Europe,321,744,2255,E ,,477.0
+Air France,Air France,"Paris-De Gaulle, FR",Europe,322,744,2035,E ,477.0,
+AirTran Airways,AirTran Airways,"Akron/Canton, OH, US",North America,25,717,1901,E ,117.0,
+AirTran Airways,AirTran Airways,"Akron/Canton, OH, US",North America,421,717,1740,E ,,117.0
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,117,717,2339,E ,117.0,
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,1842,717,1516,E ,117.0,
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,1843,717,1556,E ,,117.0
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,274,717,1310,E ,,117.0
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,291,717,1644,E ,117.0,
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,305,717,1859,E ,,117.0
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,344,717,1807,E ,117.0,
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,492,717,1303,E ,117.0,
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,58,717,0700,E ,,117.0
+AirTran Airways,AirTran Airways,"Atlanta, GA, US",North America,613,717,1455,E ,,117.0
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,106,717,0600,E ,,117.0
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,118,717,1412,E ,117.0,
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,181,717,0927,E ,117.0,
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,258,717,1726,E ,117.0,
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,261,717,1117,E ,117.0,
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,270,717,1724,E ,,117.0
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,283,717,2237,E ,117.0,
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,294,717,1941,E ,,117.0
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,387,717,1010,E ,,117.0
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,404,717,1551,E ,117.0,
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,619,717,1631,E ,,117.0
+AirTran Airways,AirTran Airways,"Baltimore, MD, US",North America,655,717,1345,E ,,117.0
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,1502,717,1510,E ,117.0,
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,1503,717,1550,E ,,117.0
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,180,717,0620,E ,,117.0
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,295,717,1657,E ,117.0,
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,379,717,1230,E ,117.0,
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,414,717,1806,E ,,117.0
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,471,717,2330,E ,117.0,
+AirTran Airways,AirTran Airways,"Milwaukee, WI, US",North America,668,717,1157,E ,,117.0
+Alaska Airlines,Alaska Airlines,"Portland, OR, US",North America,30,73H,1555,A ,157.0,
+Alaska Airlines,Alaska Airlines,"Portland, OR, US",North America,35,73H,1655,A ,,157.0
+Alaska Airlines,Alaska Airlines,"Seattle/Tacoma, WA, US",North America,12,73H,1728,A ,157.0,
+Alaska Airlines,Alaska Airlines,"Seattle/Tacoma, WA, US",North America,15,73H,1830,A ,,157.0
+Alaska Airlines,Alaska Airlines,"Seattle/Tacoma, WA, US",North America,24,73H,0645,A ,157.0,
+Alaska Airlines,Alaska Airlines,"Seattle/Tacoma, WA, US",North America,25,73H,0800,A ,,157.0
+Alitalia,Alitalia,"Rome-Da Vinci, IT",Europe,614,332,1420,E ,279.0,
+Alitalia,Alitalia,"Rome-Da Vinci, IT",Europe,615,332,1710,E ,,279.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1044,738,1335,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1179,738,1725,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1184,738,1810,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1295,738,0915,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1296,738,2325,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1481,738,1025,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,154,738,2105,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1547,738,1150,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1718,738,1055,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,1725,738,0610,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,2003,738,0800,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,2098,738,1905,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,2340,738,1630,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,2487,738,1430,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,537,738,1905,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,755,738,0705,B ,,160.0
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,874,738,2210,B ,160.0,
+American Airlines,American Airlines,"Chicago-O'Hare, IL, US",North America,876,738,0930,B ,160.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1106,757,1240,B ,187.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1211,738,1155,B ,,160.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1303,757,1345,B ,,187.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1365,757,0950,B ,,187.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1466,738,1055,B ,160.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1495,757,1840,B ,,187.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1616,738,1425,B ,160.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,1882,757,1740,B ,187.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,2413,738,0545,B ,,160.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,349,738,1520,B ,,160.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,381,738,0740,B ,,160.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,406,757,1540,B ,187.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,541,757,1645,B ,,187.0
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,560,738,2000,B ,160.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,610,757,0010,B ,187.0,
+American Airlines,American Airlines,"Dallas/Fort Worth, TX, US",North America,880,738,2215,B ,160.0,
+American Airlines,American Airlines,"London-Heathrow, EN, GB",Europe,108,757,2010,B ,,187.0
+American Airlines,American Airlines,"London-Heathrow, EN, GB",Europe,109,757,1505,E ,187.0,
+American Airlines,American Airlines,"London-Heathrow, EN, GB",Europe,124,757,2225,B ,,187.0
+American Airlines,American Airlines,"London-Heathrow, EN, GB",Europe,125,757,1750,E ,187.0,
+American Airlines,American Airlines,"London-Heathrow, EN, GB",Europe,155,757,2050,E ,187.0,
+American Airlines,American Airlines,"London-Heathrow, EN, GB",Europe,156,757,0900,B ,,187.0
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,143,757,1650,B ,,187.0
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,192,738,0605,B ,160.0,
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,202,757,2050,B ,187.0,
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,206,738,2315,B ,160.0,
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,207,738,1030,B ,,160.0
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,222,757,1540,B ,187.0,
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,223,757,1945,B ,,187.0
+American Airlines,American Airlines,"Los Angeles, CA, US",North America,25,738,0705,B ,,160.0
+American Airlines,American Airlines,"Miami, FL, US",North America,1506,757,1645,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,1517,757,1520,B ,,187.0
+American Airlines,American Airlines,"Miami, FL, US",North America,1640,757,0005,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,1810,757,2255,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,1926,757,1830,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,1951,757,1745,B ,,187.0
+American Airlines,American Airlines,"Miami, FL, US",North America,2062,757,1415,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,452,757,1030,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,469,757,0810,B ,,187.0
+American Airlines,American Airlines,"Miami, FL, US",North America,573,757,0910,B ,,187.0
+American Airlines,American Airlines,"Miami, FL, US",North America,588,757,2045,B ,187.0,
+American Airlines,American Airlines,"Miami, FL, US",North America,645,757,0535,B ,,187.0
+American Airlines,American Airlines,"Miami, FL, US",North America,801,757,0640,B ,,187.0
+American Airlines,American Airlines,"Miami, FL, US",North America,903,757,1130,B ,,187.0
+American Airlines,American Airlines,"New York-JFK, NY, US",North America,1786,738,1740,B ,160.0,
+American Airlines,American Airlines,"New York-JFK, NY, US",North America,1807,738,1850,B ,,160.0
+American Airlines,American Airlines,"New York-JFK, NY, US",North America,1838,738,0915,B ,160.0,
+American Airlines,American Airlines,"New York-JFK, NY, US",North America,1850,738,1400,B ,160.0,
+American Airlines,American Airlines,"New York-JFK, NY, US",North America,1851,738,1505,B ,,160.0
+American Airlines,American Airlines,"New York-JFK, NY, US",North America,1899,738,1020,B ,,160.0
+American Airlines,American Airlines,"Paris-De Gaulle, FR",Europe,146,757,1845,B ,,187.0
+American Airlines,American Airlines,"Paris-De Gaulle, FR",Europe,147,757,1535,E ,187.0,
+British Airways,British Airways,"London-Heathrow, EN, GB",Europe,212,744,1910,E ,,312.0
+British Airways,British Airways,"London-Heathrow, EN, GB",Europe,213,744,1320,E ,312.0,
+British Airways,British Airways,"London-Heathrow, EN, GB",Europe,214,744,2220,E ,,312.0
+British Airways,British Airways,"London-Heathrow, EN, GB",Europe,215,744,1945,E ,312.0,
+British Airways,British Airways,"London-Heathrow, EN, GB",Europe,238,777,0815,E ,,275.0
+British Airways,British Airways,"London-Heathrow, EN, GB",Europe,239,777,2140,E ,275.0,
+Cape Air,Cape Air,"Albany, NY, US",North America,1810,CNA,0934,C ,9.0,
+Cape Air,Cape Air,"Albany, NY, US",North America,1811,CNA,0858,C ,,9.0
+Cape Air,Cape Air,"Albany, NY, US",North America,1814,CNA,1526,C ,9.0,
+Cape Air,Cape Air,"Albany, NY, US",North America,1815,CNA,1255,C ,,9.0
+Cape Air,Cape Air,"Albany, NY, US",North America,1816,CNA,1935,C ,9.0,
+Cape Air,Cape Air,"Albany, NY, US",North America,1817,CNA,1704,C ,,9.0
+Cape Air,Cape Air,"Augusta, ME, US",North America,1000,CNA,0705,C ,9.0,
+Cape Air,Cape Air,"Augusta, ME, US",North America,1001,CNA,0855,C ,,9.0
+Cape Air,Cape Air,"Augusta, ME, US",North America,1002,CNA,1135,C ,9.0,
+Cape Air,Cape Air,"Augusta, ME, US",North America,1003,CNA,1230,C ,,9.0
+Cape Air,Cape Air,"Augusta, ME, US",North America,1004,CNA,1515,C ,9.0,
+Cape Air,Cape Air,"Augusta, ME, US",North America,1005,CNA,1610,C ,,9.0
+Cape Air,Cape Air,"Augusta, ME, US",North America,1006,CNA,1845,C ,9.0,
+Cape Air,Cape Air,"Augusta, ME, US",North America,1007,CNA,1950,C ,,9.0
+Cape Air,Cape Air,"Bar Harbor, ME, US",North America,1830,CNA,0724,C ,9.0,
+Cape Air,Cape Air,"Bar Harbor, ME, US",North America,1837,CNA,1727,C ,,9.0
+Cape Air,Cape Air,"Hyannis, MA, US",North America,702,CNA,0705,C ,9.0,
+Cape Air,Cape Air,"Hyannis, MA, US",North America,705,CNA,0900,C ,,9.0
+Cape Air,Cape Air,"Hyannis, MA, US",North America,708,CNA,1030,C ,9.0,
+Cape Air,Cape Air,"Hyannis, MA, US",North America,711,CNA,1505,C ,,9.0
+Cape Air,Cape Air,"Hyannis, MA, US",North America,712,CNA,1635,C ,9.0,
+Cape Air,Cape Air,"Hyannis, MA, US",North America,715,CNA,1840,C ,,9.0
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1870,CNA,0710,C ,9.0,
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1871,CNA,0855,C ,,9.0
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1874,CNA,1105,C ,9.0,
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1875,CNA,1200,C ,,9.0
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1876,CNA,1430,C ,9.0,
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1877,CNA,1545,C ,,9.0
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1878,CNA,1800,C ,9.0,
+Cape Air,Cape Air,"Lebanon, NH, US",North America,1881,CNA,2015,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,300,CNA,0717,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,301,CNA,0630,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,302,CNA,0804,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,303,CNA,0742,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,304,CNA,0916,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,305,CNA,0829,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,306,CNA,1003,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,307,CNA,1011,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,308,CNA,1145,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,309,CNA,1058,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,310,CNA,1232,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,313,CNA,1257,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,314,CNA,1431,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,315,CNA,1414,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,316,CNA,1548,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,317,CNA,1456,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,319,CNA,1613,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,320,CNA,1630,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,321,CNA,1725,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,322,CNA,1747,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,324,CNA,1904,C ,9.0,
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,325,CNA,1843,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,327,CNA,1929,C ,,9.0
+Cape Air,Cape Air,"Martha's Vineyard, MA, US",North America,332,CNA,2103,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,500,CNA,0645,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,501,CNA,0705,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,504,CNA,0755,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,505,CNA,0820,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,506,CNA,0855,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,510,CNA,1010,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,511,CNA,0950,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,514,CNA,1140,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,515,CNA,1105,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,520,CNA,1255,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,523,CNA,1325,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,527,CNA,1420,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,528,CNA,1520,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,530,CNA,1610,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,531,CNA,1545,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,533,CNA,1455,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,534,CNA,1740,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,535,CNA,1635,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,538,CNA,1825,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,539,CNA,1835,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,545,CNA,1925,C ,,9.0
+Cape Air,Cape Air,"Nantucket, MA, US",North America,546,CNA,2030,C ,9.0,
+Cape Air,Cape Air,"Nantucket, MA, US",North America,551,CNA,2100,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,202,CNA,0703,C ,9.0,
+Cape Air,Cape Air,"Provincetown, MA, US",North America,203,CNA,0725,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,207,CNA,0912,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,208,CNA,0843,C ,9.0,
+Cape Air,Cape Air,"Provincetown, MA, US",North America,211,CNA,1124,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,212,CNA,1029,C ,9.0,
+Cape Air,Cape Air,"Provincetown, MA, US",North America,216,CNA,1241,C ,9.0,
+Cape Air,Cape Air,"Provincetown, MA, US",North America,219,CNA,1435,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,224,CNA,1553,C ,9.0,
+Cape Air,Cape Air,"Provincetown, MA, US",North America,233,CNA,1650,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,241,CNA,1851,C ,,9.0
+Cape Air,Cape Air,"Provincetown, MA, US",North America,242,CNA,1815,C ,9.0,
+Cape Air,Cape Air,"Rockland, ME, US",North America,1850,CNA,0735,C ,9.0,
+Cape Air,Cape Air,"Rockland, ME, US",North America,1851,CNA,0800,C ,,9.0
+Cape Air,Cape Air,"Rockland, ME, US",North America,1852,CNA,1105,C ,9.0,
+Cape Air,Cape Air,"Rockland, ME, US",North America,1853,CNA,1055,C ,,9.0
+Cape Air,Cape Air,"Rockland, ME, US",North America,1854,CNA,1330,C ,9.0,
+Cape Air,Cape Air,"Rockland, ME, US",North America,1855,CNA,1150,C ,,9.0
+Cape Air,Cape Air,"Rockland, ME, US",North America,1856,CNA,1430,C ,9.0,
+Cape Air,Cape Air,"Rockland, ME, US",North America,1857,CNA,1455,C ,,9.0
+Cape Air,Cape Air,"Rockland, ME, US",North America,1858,CNA,1805,C ,9.0,
+Cape Air,Cape Air,"Rockland, ME, US",North America,1859,CNA,1850,C ,,9.0
+Cape Air,Cape Air,"Rockland, ME, US",North America,1861,CNA,1000,C ,,9.0
+Cape Air,Cape Air,"Rockland, ME, US",North America,918,CNA,1230,C ,9.0,
+Cape Air,Cape Air,"Rutland, VT, US",North America,50,CNA,0714,C ,9.0,
+Cape Air,Cape Air,"Rutland, VT, US",North America,55,CNA,0955,C ,,9.0
+Cape Air,Cape Air,"Rutland, VT, US",North America,60,CNA,1229,C ,9.0,
+Cape Air,Cape Air,"Rutland, VT, US",North America,61,CNA,1325,C ,,9.0
+Cape Air,Cape Air,"Rutland, VT, US",North America,68,CNA,1559,C ,9.0,
+Cape Air,Cape Air,"Rutland, VT, US",North America,69,CNA,1430,C ,,9.0
+Cape Air,Cape Air,"Rutland, VT, US",North America,72,CNA,1702,C ,9.0,
+Cape Air,Cape Air,"Rutland, VT, US",North America,73,CNA,1743,C ,,9.0
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1026,CNA,0729,C ,9.0,
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1029,CNA,0755,C ,,9.0
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1030,CNA,1159,C ,9.0,
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1031,CNA,1000,C ,,9.0
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1032,CNA,1334,C ,9.0,
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1033,CNA,1225,C ,,9.0
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1034,CNA,1554,C ,9.0,
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1035,CNA,1620,C ,,9.0
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1036,CNA,2024,C ,9.0,
+Cape Air,Cape Air,"Saranac Lake, NY, US",North America,1037,CNA,2050,C ,,9.0
+Delta Air Lines,Chautauqua Airlines Inc.,"Columbus, OH, US",North America,6103,ERJ,0824,A ,50.0,
+Delta Air Lines,Chautauqua Airlines Inc.,"Columbus, OH, US",North America,6103,ERJ,0859,A ,0.0,50.0
+Delta Air Lines,Comair,"Cincinnati, OH/Covington, KY, US",North America,3002,CR7,1345,A ,66.0,
+Delta Air Lines,Comair,"Cincinnati, OH/Covington, KY, US",North America,3015,CR9,2214,A ,76.0,
+Delta Air Lines,Comair,"Cincinnati, OH/Covington, KY, US",North America,3098,CR7,0909,A ,66.0,
+Delta Air Lines,Comair,"Cincinnati, OH/Covington, KY, US",North America,3221,CR9,0600,A ,,76.0
+Delta Air Lines,Comair,"Cincinnati, OH/Covington, KY, US",North America,3223,CR7,1015,A ,,66.0
+Delta Air Lines,Comair,"Detroit, MI, US",North America,3011,CR7,0720,A ,,66.0
+Delta Air Lines,Comair,"Memphis, TN, US",North America,3005,CR7,1610,A ,,66.0
+Delta Air Lines,Comair,"Raleigh/Durham, NC, US",North America,3023,CR7,0945,A ,,66.0
+Delta Air Lines,Comair,"Raleigh/Durham, NC, US",North America,3195,CR7,1940,A ,,66.0
+Delta Air Lines,Comair,"Raleigh/Durham, NC, US",North America,3196,CR7,0856,A ,66.0,
+Delta Air Lines,Comair,"Raleigh/Durham, NC, US",North America,3203,CR7,1420,A ,,66.0
+Delta Air Lines,Comair,"Raleigh/Durham, NC, US",North America,3203,CR7,1905,A ,66.0,
+Delta Air Lines,Comair,"Raleigh/Durham, NC, US",North America,3212,CR7,1425,A ,66.0,
+Delta Air Lines,Delta Air Lines,"Amsterdam, NL",Europe,230,333,1645,A ,,298.0
+Delta Air Lines,Delta Air Lines,"Amsterdam, NL",Europe,231,333,1300,E ,298.0,
+Delta Air Lines,Delta Air Lines,"Amsterdam, NL",Europe,267,767,1655,E ,218.0,
+Delta Air Lines,Delta Air Lines,"Amsterdam, NL",Europe,604,767,1855,A ,,218.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1001,757,1100,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1100,320,2151,A ,151.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1201,757,1845,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1400,757,1754,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1401,757,0600,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1501,757,0715,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1600,757,1009,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1601,757,1348,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1601,757,1445,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1700,757,1125,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1700,757,1215,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1701,320,0945,A ,,151.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,1901,320,0830,A ,,151.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2001,M90,1245,A ,150.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2001,M90,1330,A ,,150.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2100,757,1625,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2201,757,1715,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2288,757,1509,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2288,757,1600,A ,,183.0
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,2300,757,1928,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,412,757,0027,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Atlanta, GA, US",North America,900,320,2030,A ,151.0,
+Delta Air Lines,Delta Air Lines,"Bermuda, BM",Caribbean,560,738,1328,A ,160.0,
+Delta Air Lines,Delta Air Lines,"Bermuda, BM",Caribbean,561,738,0800,A ,,160.0
+Delta Air Lines,Delta Air Lines,"Cincinnati, OH/Covington, KY, US",North America,825,738,1732,A ,,160.0
+Delta Air Lines,Delta Air Lines,"Cincinnati, OH/Covington, KY, US",North America,898,M88,1807,A ,142.0,
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,1422,M90,1550,A ,150.0,
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,1622,319,1925,A ,122.0,
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,1623,M90,1630,A ,,150.0
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,1723,M88,1445,A ,,142.0
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,1822,319,2350,A ,122.0,
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,186,M88,1732,A ,142.0,
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,187,M88,1235,A ,,142.0
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,188,M88,1155,A ,142.0,
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,189,M88,1850,A ,,142.0
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,2023,319,0910,A ,,122.0
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,2285,M88,0555,A ,,142.0
+Delta Air Lines,Delta Air Lines,"Detroit, MI, US",North America,866,319,2127,A ,122.0,
+Delta Air Lines,Delta Air Lines,"London-Heathrow, EN, GB",Europe,623,764,1220,E ,246.0,
+Delta Air Lines,Delta Air Lines,"London-Heathrow, EN, GB",Europe,624,764,1840,A ,,246.0
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,349,M88,1812,A ,,142.0
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,808,M90,1046,A ,150.0,
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,809,320,0615,A ,,151.0
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,818,M88,1354,A ,142.0,
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,819,319,0820,A ,,122.0
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,829,M90,1126,A ,,150.0
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,848,738,1652,A ,160.0,
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,858,320,1914,A ,151.0,
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,859,320,1425,A ,,151.0
+Delta Air Lines,Delta Air Lines,"Minneapolis/St. Paul, MN, US",North America,868,738,2314,A ,160.0,
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1006,73H,1722,A ,160.0,
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1023,319,1615,A ,,122.0
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1057,319,2035,A ,,122.0
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1202,319,1527,A ,122.0,
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1478,319,0954,A ,122.0,
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1717,73H,1818,A ,,160.0
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,1760,319,2018,A ,122.0,
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,493,73H,0600,A ,,160.0
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,948,73H,2323,A ,160.0,
+Delta Air Lines,Delta Air Lines,"New York-JFK, NY, US",North America,979,319,1200,A ,,122.0
+Delta Air Lines,Delta Air Lines,"Orlando, FL, US",North America,1102,320,2232,A ,151.0,
+Delta Air Lines,Delta Air Lines,"Orlando, FL, US",North America,1315,320,0700,A ,,151.0
+Delta Air Lines,Delta Air Lines,"Orlando, FL, US",North America,1699,738,1420,A ,,160.0
+Delta Air Lines,Delta Air Lines,"Orlando, FL, US",North America,814,320,1344,A ,151.0,
+Delta Air Lines,Delta Air Lines,"Salt Lake City, UT, US",North America,1210,757,1625,A ,183.0,
+Delta Air Lines,Delta Air Lines,"Salt Lake City, UT, US",North America,1215,757,1720,A ,,183.0
+Delta Air Lines,ExpressJet Airlines,"Detroit, MI, US",North America,5158,CR7,0935,A ,66.0,
+Delta Air Lines,ExpressJet Airlines,"Memphis, TN, US",North America,4873,CR7,1055,A ,,66.0
+Delta Air Lines,ExpressJet Airlines,"Memphis, TN, US",North America,4874,CR7,2302,A ,66.0,
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5039,CR7,1155,A ,66.0,
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5039,CR7,1240,A ,,66.0
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5041,CR7,1716,A ,66.0,
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5041,CR7,1755,A ,,66.0
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5042,CR7,1016,A ,66.0,
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5045,CR7,2052,A ,66.0,
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5047,CR7,0700,A ,,66.0
+Delta Air Lines,ExpressJet Airlines,"Raleigh/Durham, NC, US",North America,5252,CR7,1055,A ,,66.0
+Delta Air Lines,Pinnacle Airlines,"Cincinnati, OH/Covington, KY, US",North America,3326,CR9,1311,A ,,76.0
+Delta Air Lines,Pinnacle Airlines,"Columbus, OH, US",North America,3789,CRJ,1300,A ,,50.0
+Delta Air Lines,Pinnacle Airlines,"Columbus, OH, US",North America,3842,CRJ,1227,A ,50.0,
+Delta Air Lines,Pinnacle Airlines,"Kansas City, MO, US",North America,3293,CR9,1750,A ,76.0,
+Delta Air Lines,Pinnacle Airlines,"Kansas City, MO, US",North America,3301,CR9,1105,A ,76.0,
+Delta Air Lines,Pinnacle Airlines,"Kansas City, MO, US",North America,3302,CR9,1830,A ,,76.0
+Delta Air Lines,Pinnacle Airlines,"Kansas City, MO, US",North America,3304,CR9,1140,A ,,76.0
+Delta Air Lines,Pinnacle Airlines,"Memphis, TN, US",North America,3322,CR9,1234,A ,76.0,
+Delta Air Lines,Pinnacle Airlines,"Norfolk, VA, US",North America,4143,CRJ,1638,A ,50.0,
+Delta Air Lines,Pinnacle Airlines,"Norfolk, VA, US",North America,4227,CRJ,1405,A ,,50.0
+Delta Air Lines,Pinnacle Airlines,"Norfolk, VA, US",North America,4301,CRJ,1830,A ,,50.0
+Delta Air Lines,Pinnacle Airlines,"Norfolk, VA, US",North America,4334,CRJ,1213,A ,50.0,
+Delta Air Lines,Pinnacle Airlines,"Toronto, ON, CA",Canada,3820,CRJ,1351,A ,,50.0
+Delta Air Lines,Pinnacle Airlines,"Toronto, ON, CA",Canada,3820,CRJ,1754,A ,50.0,
+Delta Air Lines,Pinnacle Airlines,"Toronto, ON, CA",Canada,4025,CRJ,1323,A ,50.0,
+Delta Air Lines,Pinnacle Airlines,"Toronto, ON, CA",Canada,4249,CRJ,0855,A ,,50.0
+Delta Air Lines,Pinnacle Airlines,"Toronto, ON, CA",Canada,4288,CRJ,1715,A ,,50.0
+Delta Air Lines,Pinnacle Airlines,"Toronto, ON, CA",Canada,4296,CRJ,0826,A ,50.0,
+Delta Air Lines,Shuttle America,"Columbus, OH, US",North America,5996,E70,1905,A ,,70.0
+Delta Air Lines,Shuttle America,"Columbus, OH, US",North America,6006,E70,1834,A ,70.0,
+Delta Air Lines,Shuttle America,"Indianapolis, IN, US",North America,7307,E70,1909,A ,70.0,
+Delta Air Lines,Shuttle America,"Indianapolis, IN, US",North America,7307,E70,1940,A ,,70.0
+Delta Air Lines,Shuttle America,"Indianapolis, IN, US",North America,7320,E70,0855,A ,,70.0
+Delta Air Lines,Shuttle America,"Indianapolis, IN, US",North America,7323,E70,0818,A ,70.0,
+Delta Air Lines,Shuttle America,"Indianapolis, IN, US",North America,7324,E70,1325,A ,70.0,
+Delta Air Lines,Shuttle America,"Indianapolis, IN, US",North America,7324,E70,1355,A ,,70.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5868,E75,0708,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5869,E75,0600,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5870,E75,0805,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5871,E75,0700,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5872,E75,0916,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5873,E75,0800,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5874,E75,1008,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5875,E75,0900,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5876,E75,1117,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5877,E75,1000,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5878,E75,1203,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5879,E75,1100,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5880,E75,1313,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5881,E75,1200,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5882,E75,1406,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5883,E75,1300,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5884,E75,1514,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5885,E75,1400,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5886,E75,1603,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5887,E75,1500,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5888,E75,1716,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5889,E75,1600,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5890,E75,1823,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5891,E75,1700,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5892,E75,1903,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5893,E75,1800,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5894,E75,2003,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5895,E75,1900,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5896,E75,2119,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5897,E75,2000,A ,,77.0
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5898,E75,2219,A ,77.0,
+Delta Air Lines,Shuttle America,"New York-La Guardia, NY, US",North America,5899,E75,0630,A ,,77.0
+Icelandair,Icelandair,"Reykjavik, IS",Europe,630,75W,2130,E ,,183.0
+Icelandair,Icelandair,"Reykjavik, IS",Europe,631,75W,1835,E ,183.0,
+Icelandair,Icelandair,"Reykjavik, IS",Europe,634,75W,1435,E ,,183.0
+Icelandair,Icelandair,"Reykjavik, IS",Europe,635,75W,1205,E ,183.0,
+Japan Airlines,Japan Airlines,"Tokyo-Narita, JP",Asia,7,788,1320,E ,,247.0
+Japan Airlines,Japan Airlines,"Tokyo-Narita, JP",Asia,8,788,1130,E ,247.0,
+JetBlue Airways,JetBlue Airways,"Aruba, AW",Caribbean,775,320,0855,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Aruba, AW",Caribbean,776,320,1935,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Austin, TX, US",North America,1263,E90,0715,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Austin, TX, US",North America,1264,E90,2256,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1319,E90,0721,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1320,E90,1201,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1321,E90,0620,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1322,E90,0954,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1325,E90,1410,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1326,E90,1748,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1327,E90,1745,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1328,E90,2118,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1329,E90,0830,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Baltimore, MD, US",North America,1331,E90,2055,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Bermuda, BM",Caribbean,1703,E90,0945,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Bermuda, BM",Caribbean,1704,E90,1501,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1210,E90,1429,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1211,E90,0759,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1212,E90,0951,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1213,E90,2045,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1214,E90,0743,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1215,E90,1320,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1216,E90,1646,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1217,E90,1105,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1218,E90,1822,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Buffalo, NY, US",North America,1219,E90,1830,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Charlotte-Douglas, NC, US",North America,1242,E90,1347,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Charlotte-Douglas, NC, US",North America,1243,E90,1500,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Charlotte-Douglas, NC, US",North America,1244,E90,2015,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Charlotte-Douglas, NC, US",North America,1247,E90,0840,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Chicago-O'Hare, IL, US",North America,921,E90,1305,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Chicago-O'Hare, IL, US",North America,922,320,1154,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Chicago-O'Hare, IL, US",North America,924,E90,1842,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Chicago-O'Hare, IL, US",North America,925,E90,1725,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Chicago-O'Hare, IL, US",North America,926,E90,2144,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Chicago-O'Hare, IL, US",North America,927,320,0740,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Dallas/Fort Worth, TX, US",North America,252,E90,1145,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Dallas/Fort Worth, TX, US",North America,253,320,0730,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Dallas/Fort Worth, TX, US",North America,254,320,1556,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Dallas/Fort Worth, TX, US",North America,255,E90,1430,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Dallas/Fort Worth, TX, US",North America,256,E90,2259,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Dallas/Fort Worth, TX, US",North America,259,E90,1859,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Denver, CO, US",North America,489,320,2120,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Denver, CO, US",North America,490,320,0500,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Denver, CO, US",North America,493,320,0835,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Denver, CO, US",North America,494,320,1750,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,965,320,0650,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,966,320,1456,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,968,320,1107,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,969,320,1055,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,970,320,1639,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,971,320,1505,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,972,320,1822,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,973,320,1725,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,975,E90,2105,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Fort Lauderdale, FL, US",North America,976,E90,2245,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Fort Myers, FL, US",North America,434,E90,1611,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Fort Myers, FL, US",North America,461,E90,0700,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Fort Myers, FL, US",North America,462,320,2357,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Fort Myers, FL, US",North America,467,320,1645,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Jacksonville, FL, US",North America,1414,E90,0937,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Jacksonville, FL, US",North America,1415,E90,1945,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Jacksonville, FL, US",North America,1418,E90,1915,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Jacksonville, FL, US",North America,1419,E90,0700,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Las Vegas, NV, US",North America,777,320,2005,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Las Vegas, NV, US",North America,778,320,0723,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Las Vegas, NV, US",North America,781,320,0900,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Las Vegas, NV, US",North America,782,320,2039,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Long Beach, CA, US",North America,404,320,0528,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Long Beach, CA, US",North America,419,320,1702,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Los Angeles, CA, US",North America,480,320,0759,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Los Angeles, CA, US",North America,481,320,0800,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Los Angeles, CA, US",North America,485,320,1922,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Los Angeles, CA, US",North America,486,320,2259,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Los Angeles, CA, US",North America,487,320,1035,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Los Angeles, CA, US",North America,488,320,2028,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Nantucket, MA, US",North America,1550,E90,1650,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Nantucket, MA, US",North America,1551,E90,1918,C ,100.0,
+JetBlue Airways,JetBlue Airways,"New Orleans, LA, US",North America,401,E90,1025,C ,,100.0
+JetBlue Airways,JetBlue Airways,"New Orleans, LA, US",North America,402,E90,1755,C ,100.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1002,E90,0911,C ,100.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1004,320,1024,C ,150.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1005,320,0800,C ,,150.0
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1007,E90,1015,C ,,100.0
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1008,E90,1308,C ,100.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1011,E90,2010,C ,,100.0
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1012,320,1800,C ,150.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1015,E90,1545,C ,,100.0
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1016,E90,2159,C ,100.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1017,E90,1755,C ,,100.0
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,1018,E90,0006,C ,100.0,
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,809,320,1109,C ,,150.0
+JetBlue Airways,JetBlue Airways,"New York-JFK, NY, US",North America,885,320,0600,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1172,E90,0944,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1173,E90,0615,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1174,E90,1236,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1175,E90,0930,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1176,E90,1849,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1177,E90,1515,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1178,E90,2153,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Newark, NJ, US",North America,1179,E90,1835,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Oakland, CA, US",North America,475,320,1942,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Oakland, CA, US",North America,476,320,0823,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,940,320,1211,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,945,E90,1425,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,947,320,0636,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,948,320,2349,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,950,E90,0850,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,951,320,1144,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,953,320,1300,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,954,320,1417,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,955,320,0910,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,956,E90,1625,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,957,E90,1859,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,958,320,2003,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,959,320,2055,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Orlando, FL, US",North America,960,320,1828,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Phoenix, AZ, US",North America,407,320,1830,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Phoenix, AZ, US",North America,408,320,0618,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Pittsburgh, PA, US",North America,1290,E90,1421,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Pittsburgh, PA, US",North America,1292,E90,0834,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Pittsburgh, PA, US",North America,1293,E90,1420,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Pittsburgh, PA, US",North America,1295,E90,1030,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Pittsburgh, PA, US",North America,1296,E90,1813,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Pittsburgh, PA, US",North America,1297,E90,0700,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Portland, OR, US",North America,95,320,1930,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Portland, OR, US",North America,96,320,0744,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1222,E90,1507,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1223,E90,0700,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1224,E90,0854,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1225,E90,1930,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1227,E90,1045,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1228,E90,2011,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1229,E90,1245,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Raleigh/Durham, NC, US",North America,1230,E90,1715,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Richmond, VA, US",North America,1280,E90,0753,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Richmond, VA, US",North America,1282,E90,1904,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Richmond, VA, US",North America,1287,E90,0915,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Richmond, VA, US",North America,1289,E90,1959,C ,,100.0
+JetBlue Airways,JetBlue Airways,"San Diego, CA, US",North America,411,320,1625,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Diego, CA, US",North America,412,320,0628,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Diego, CA, US",North America,415,320,0944,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Diego, CA, US",North America,416,320,2202,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Francisco, CA, US",North America,632,320,1533,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Francisco, CA, US",North America,633,320,1555,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Francisco, CA, US",North America,634,320,2200,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Francisco, CA, US",North America,635,320,0745,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Francisco, CA, US",North America,636,320,0647,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Francisco, CA, US",North America,637,320,1925,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Jose, CA, US",North America,471,320,1635,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Jose, CA, US",North America,472,320,0526,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Juan, PR, US",North America,843,320,2359,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Juan, PR, US",North America,844,320,0653,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Juan, PR, US",North America,845,320,1220,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Juan, PR, US",North America,846,320,1731,C ,150.0,
+JetBlue Airways,JetBlue Airways,"San Juan, PR, US",North America,851,320,0845,C ,,150.0
+JetBlue Airways,JetBlue Airways,"San Juan, PR, US",North America,852,320,2249,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Santiago, DO",Caribbean,893,320,2230,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Santiago, DO",Caribbean,894,320,0710,E ,150.0,
+JetBlue Airways,JetBlue Airways,"Santo Domingo, DO",Caribbean,891,320,2359,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Santo Domingo, DO",Caribbean,892,320,0857,E ,150.0,
+JetBlue Airways,JetBlue Airways,"Seattle/Tacoma, WA, US",North America,495,320,0729,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Seattle/Tacoma, WA, US",North America,496,320,1938,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Seattle/Tacoma, WA, US",North America,497,320,2050,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Seattle/Tacoma, WA, US",North America,498,320,0730,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Tampa, FL, US",North America,443,320,2045,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Tampa, FL, US",North America,444,320,1010,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Tampa, FL, US",North America,445,320,0840,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Tampa, FL, US",North America,446,320,1534,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Tampa, FL, US",North America,447,320,1340,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Tampa, FL, US",North America,448,320,2255,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Washington-Dulles, VA, US",North America,1249,E90,0645,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-Dulles, VA, US",North America,1252,E90,1030,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-Dulles, VA, US",North America,1253,E90,0950,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-Dulles, VA, US",North America,1257,E90,1735,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-Dulles, VA, US",North America,1258,E90,1342,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-Dulles, VA, US",North America,1260,E90,2023,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,1600,320,0626,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,1790,E90,0756,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,680,E90,0907,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,681,E90,0726,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,682,320,1010,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,683,E90,0835,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,684,E90,1226,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,685,E90,0950,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,686,E90,1339,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,687,320,1100,C ,,150.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,688,E90,1619,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,689,E90,1225,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,690,E90,1715,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,691,E90,1600,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,692,320,1915,C ,150.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,693,E90,1755,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,694,E90,2001,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,695,E90,1920,C ,,100.0
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,696,E90,2152,C ,100.0,
+JetBlue Airways,JetBlue Airways,"Washington-National, DC, US",North America,697,E90,2054,C ,,100.0
+JetBlue Airways,JetBlue Airways,"West Palm Beach, FL, US",North America,322,320,1840,C ,150.0,
+JetBlue Airways,JetBlue Airways,"West Palm Beach, FL, US",North America,421,320,1840,C ,,150.0
+JetBlue Airways,JetBlue Airways,"West Palm Beach, FL, US",North America,423,320,0940,C ,,150.0
+JetBlue Airways,JetBlue Airways,"West Palm Beach, FL, US",North America,424,320,1612,C ,150.0,
+Lufthansa,Lufthansa,"Frankfurt, DE",Europe,420,343,2035,E ,247.0,
+Lufthansa,Lufthansa,"Frankfurt, DE",Europe,421,343,2220,E ,,247.0
+Lufthansa,Lufthansa,"Frankfurt, DE",Europe,422,744,1435,E ,344.0,
+Lufthansa,Lufthansa,"Frankfurt, DE",Europe,423,744,1635,E ,,344.0
+Lufthansa,Lufthansa,"Munich, DE",Europe,424,346,1835,E ,345.0,
+Lufthansa,Lufthansa,"Munich, DE",Europe,425,346,2025,E ,,345.0
+MN Airlines LLC dba Sun Country Airlines,MN Airlines LLC dba Sun Country Airlines,"Minneapolis/St. Paul, MN, US",North America,251,73G,1102,E ,134.0,
+MN Airlines LLC dba Sun Country Airlines,MN Airlines LLC dba Sun Country Airlines,"Minneapolis/St. Paul, MN, US",North America,252,73G,1150,E ,,134.0
+Penair,Penair,"Bar Harbor, ME, US",North America,150,SF3,0840,B ,,34.0
+Penair,Penair,"Bar Harbor, ME, US",North America,151,SF3,1140,B ,34.0,
+Penair,Penair,"Bar Harbor, ME, US",North America,152,SF3,1355,B ,,34.0
+Penair,Penair,"Bar Harbor, ME, US",North America,153,SF3,1655,B ,34.0,
+Penair,Penair,"Bar Harbor, ME, US",North America,154,SF3,1845,B ,,34.0
+Penair,Penair,"Bar Harbor, ME, US",North America,155,SF3,1315,B ,34.0,
+Penair,Penair,"Plattsburgh, NY, US",North America,160,SF3,1310,B ,,34.0
+Penair,Penair,"Plattsburgh, NY, US",North America,161,SF3,1630,B ,34.0,
+Penair,Penair,"Plattsburgh, NY, US",North America,162,SF3,1755,B ,,34.0
+Penair,Penair,"Plattsburgh, NY, US",North America,163,SF3,0725,B ,34.0,
+Penair,Penair,"Presque Isle, ME, US",North America,140,SF3,0810,B ,,34.0
+Penair,Penair,"Presque Isle, ME, US",North America,141,SF3,1230,B ,34.0,
+Penair,Penair,"Presque Isle, ME, US",North America,142,SF3,1235,B ,,34.0
+Penair,Penair,"Presque Isle, ME, US",North America,143,SF3,1655,B ,34.0,
+Penair,Penair,"Presque Isle, ME, US",North America,144,SF3,1735,B ,,34.0
+Penair,Penair,"Presque Isle, ME, US",North America,145,SF3,0755,B ,34.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,936,DH4,0645,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,937,DH4,0830,E ,70.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,938,DH4,0920,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,939,DH4,1035,E ,70.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,940,DH4,1120,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,941,DH4,1310,E ,70.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,942,DH4,1355,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,943,DH4,1450,E ,70.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,944,DH4,1535,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,945,DH4,1635,E ,70.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,946,DH4,1745,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,947,DH4,1830,E ,70.0,
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,948,DH4,1925,E ,,70.0
+Porter Airlines,Porter Airlines,"Toronto-City, ON, CA",Canada,949,DH4,2135,E ,70.0,
+"SATA International Servicios Et. Trans Aereos, S.A","SATA International Servicios Et. Trans Aereos, S.A","Ponta Delgada, PT",Europe,220,313,2215,E ,,222.0
+"SATA International Servicios Et. Trans Aereos, S.A","SATA International Servicios Et. Trans Aereos, S.A","Ponta Delgada, PT",Europe,221,313,1645,E ,222.0,
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,1074,73G,0705,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,143,73W,1510,E ,143.0,
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,312,73G,1925,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,327,73G,1135,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,3746,73G,0745,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,4445,73G,1930,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,508,733,0845,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,549,733,2310,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,619,73G,1740,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Baltimore, MD, US",North America,807,73G,0600,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,143,73W,1535,E ,,143.0
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,1697,73W,0605,E ,,143.0
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,1935,73W,1350,E ,143.0,
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,223,73W,0025,E ,143.0,
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,2954,73G,1955,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,2969,735,0955,E ,122.0,
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,3162,73W,2110,E ,143.0,
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,327,73G,1215,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,440,73W,0750,E ,,143.0
+Southwest Airlines,Southwest Airlines,"Chicago-Midway, IL, US",North America,619,73G,1655,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Denver, CO, US",North America,2514,73W,1425,E ,,143.0
+Southwest Airlines,Southwest Airlines,"Denver, CO, US",North America,3746,73G,0830,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Denver, CO, US",North America,412,73G,1630,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Denver, CO, US",North America,466,73G,0020,E ,137.0,
+Southwest Airlines,Southwest Airlines,"Nashville, TN, US",North America,4004,73G,1220,E ,,137.0
+Southwest Airlines,Southwest Airlines,"Nashville, TN, US",North America,4005,73G,1855,E ,137.0,
+Southwest Airlines,Southwest Airlines,"St. Louis, MO, US",North America,1435,73G,2200,E ,137.0,
+Southwest Airlines,Southwest Airlines,"St. Louis, MO, US",North America,3058,735,1030,E ,,122.0
+Southwest Airlines,Southwest Airlines,"St. Louis, MO, US",North America,3217,73G,1145,E ,137.0,
+Southwest Airlines,Southwest Airlines,"St. Louis, MO, US",North America,525,73G,1700,E ,,137.0
+Spirit Airlines,Spirit Airlines,"Atlantic City, NJ, US",North America,147,319,0830,B ,,145.0
+Spirit Airlines,Spirit Airlines,"Atlantic City, NJ, US",North America,332,319,1755,B ,145.0,
+Spirit Airlines,Spirit Airlines,"Atlantic City, NJ, US",North America,354,319,1235,B ,145.0,
+Spirit Airlines,Spirit Airlines,"Atlantic City, NJ, US",North America,375,319,1725,B ,,145.0
+Spirit Airlines,Spirit Airlines,"Chicago-O'Hare, IL, US",North America,708,319,1635,B ,145.0,
+Spirit Airlines,Spirit Airlines,"Chicago-O'Hare, IL, US",North America,773,319,1325,B ,,145.0
+Spirit Airlines,Spirit Airlines,"Dallas/Fort Worth, TX, US",North America,254,319,0600,B ,145.0,
+Spirit Airlines,Spirit Airlines,"Dallas/Fort Worth, TX, US",North America,857,319,1155,B ,,145.0
+Spirit Airlines,Spirit Airlines,"Fort Lauderdale, FL, US",North America,610,319,1115,B ,145.0,
+Spirit Airlines,Spirit Airlines,"Fort Lauderdale, FL, US",North America,615,319,1845,B ,,145.0
+Spirit Airlines,Spirit Airlines,"Myrtle Beach, SC, US",North America,103,320,0520,B ,,178.0
+Spirit Airlines,Spirit Airlines,"Myrtle Beach, SC, US",North America,126,320,0027,B ,178.0,
+SWISS,SWISS,"Zurich, CH",Europe,52,333,2005,E ,236.0,
+SWISS,SWISS,"Zurich, CH",Europe,53,333,2145,E ,,236.0
+Transportes Aereos de Cabo Verde,Transportes Aereos de Cabo Verde,"Praia, CV",Africa,690,757,2100,E ,185.0,
+Transportes Aereos de Cabo Verde,Transportes Aereos de Cabo Verde,"Praia, CV",Africa,691,757,2230,E ,,185.0
+United Airlines,Chautauqua Airlines Inc.,"Cleveland, OH, US",North America,4724,ER4,0530,A ,,50.0
+United Airlines,Chautauqua Airlines Inc.,"Cleveland, OH, US",North America,4734,ER4,2158,A ,50.0,
+United Airlines,Shuttle America,"Chicago-O'Hare, IL, US",North America,3502,E70,1430,C ,70.0,
+United Airlines,Shuttle America,"Chicago-O'Hare, IL, US",North America,3502,E70,1536,C ,,70.0
+United Airlines,Shuttle America,"Chicago-O'Hare, IL, US",North America,3523,E70,1748,C ,70.0,
+United Airlines,Shuttle America,"Chicago-O'Hare, IL, US",North America,3523,E70,1822,C ,,70.0
+United Airlines,Trans States Airlines,"Cleveland, OH, US",North America,5275,ER4,0910,A ,50.0,
+United Airlines,Trans States Airlines,"Cleveland, OH, US",North America,5284,ER4,1328,A ,,50.0
+United Airlines,Trans States Airlines,"Washington-Dulles, VA, US",North America,3353,ER4,1622,C ,50.0,
+United Airlines,Trans States Airlines,"Washington-Dulles, VA, US",North America,3377,ER4,1647,C ,,50.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,1101,739,0019,C ,173.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,249,320,0655,C ,,138.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,270,752,0555,C ,,178.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,308,319,1209,C ,120.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,369,320,1711,C ,,138.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,423,319,1403,C ,,120.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,457,319,1020,C ,120.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,488,319,2126,C ,120.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,501,320,0734,C ,,138.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,524,752,0912,C ,178.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,532,319,1322,C ,120.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,545,752,2025,C ,,178.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,566,752,1930,C ,178.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,578,752,1635,C ,178.0,
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,672,319,1324,C ,,120.0
+United Airlines,United Airlines,"Chicago-O'Hare, IL, US",North America,701,319,1105,C ,,120.0
+United Airlines,United Airlines,"Cleveland, OH, US",North America,1203,738,1803,A ,,157.0
+United Airlines,United Airlines,"Cleveland, OH, US",North America,1630,738,1710,A ,157.0,
+United Airlines,United Airlines,"Denver, CO, US",North America,1517,738,1005,C ,,157.0
+United Airlines,United Airlines,"Denver, CO, US",North America,1532,738,2203,C ,157.0,
+United Airlines,United Airlines,"Denver, CO, US",North America,296,752,1535,C ,,178.0
+United Airlines,United Airlines,"Denver, CO, US",North America,339,752,0757,C ,,178.0
+United Airlines,United Airlines,"Denver, CO, US",North America,386,752,1855,C ,178.0,
+United Airlines,United Airlines,"Denver, CO, US",North America,439,752,1337,C ,178.0,
+United Airlines,United Airlines,"Denver, CO, US",North America,789,320,1617,C ,138.0,
+United Airlines,United Airlines,"Denver, CO, US",North America,815,752,1810,C ,,178.0
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1059,738,0952,A ,,157.0
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1102,735,0005,A ,114.0,
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1124,738,1235,A ,157.0,
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1233,738,1335,A ,,157.0
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1634,738,1758,A ,157.0,
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1634,738,1848,A ,,157.0
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,1644,735,1700,A ,,114.0
+United Airlines,United Airlines,"Houston-Intercontinental, TX, US",North America,267,320,2105,A ,138.0,
+United Airlines,United Airlines,"Los Angeles, CA, US",North America,506,752,0650,C ,178.0,
+United Airlines,United Airlines,"Los Angeles, CA, US",North America,528,752,1710,C ,178.0,
+United Airlines,United Airlines,"Los Angeles, CA, US",North America,717,752,1810,C ,,178.0
+United Airlines,United Airlines,"Los Angeles, CA, US",North America,743,319,0620,C ,,120.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1063,739,0606,A ,,173.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1064,73G,1757,A ,124.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1065,735,1452,A ,,114.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1116,738,1647,A ,157.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1116,738,1742,A ,,157.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1142,738,0821,A ,157.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1163,738,1208,A ,157.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1198,735,1030,A ,,114.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1198,735,1412,A ,114.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1230,73G,0940,A ,,124.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1290,738,1258,A ,,157.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1517,735,0912,A ,114.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1548,73G,1845,A ,,124.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1578,73G,0724,A ,,124.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1633,739,2218,A ,173.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1686,739,0815,A ,,173.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,1686,73G,0731,A ,124.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1703,73G,2043,A ,124.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,1725,739,0640,A ,,173.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,454,319,1638,A ,,120.0
+United Airlines,United Airlines,"Newark, NJ, US",North America,684,319,1554,A ,120.0,
+United Airlines,United Airlines,"Newark, NJ, US",North America,986,320,2254,A ,138.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,1171,739,1952,C ,173.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,226,752,1440,C ,178.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,242,752,2208,C ,178.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,433,752,0600,C ,,178.0
+United Airlines,United Airlines,"San Francisco, CA, US",North America,444,752,0027,C ,178.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,503,752,1732,C ,,178.0
+United Airlines,United Airlines,"San Francisco, CA, US",North America,505,752,0830,C ,,178.0
+United Airlines,United Airlines,"San Francisco, CA, US",North America,587,752,1454,C ,,178.0
+United Airlines,United Airlines,"San Francisco, CA, US",North America,768,752,1658,C ,178.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,770,752,0730,C ,178.0,
+United Airlines,United Airlines,"San Francisco, CA, US",North America,780,752,1144,C ,,178.0
+United Airlines,United Airlines,"San Francisco, CA, US",North America,996,752,1008,C ,,178.0
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,282,320,0537,C ,,138.0
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,352,752,2335,C ,178.0,
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,363,320,1920,C ,,138.0
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,424,752,1356,C ,178.0,
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,548,752,0938,C ,,178.0
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,780,752,0951,C ,178.0,
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,822,320,1835,C ,138.0,
+United Airlines,United Airlines,"Washington-Dulles, VA, US",North America,823,752,1432,C ,,178.0
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,3571,CRJ,0700,B ,,50.0
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,3651,CRJ,0910,B ,,50.0
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,3654,CRJ,1614,B ,50.0,
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,3691,CRJ,1645,B ,,50.0
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,3738,CRJ,0820,B ,50.0,
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,3895,CRJ,2040,B ,,50.0
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,4028,CRJ,2002,B ,50.0,
+US Airways,Air Wisconsin,"Buffalo, NY, US",North America,4052,CRJ,1032,B ,50.0,
+US Airways,Air Wisconsin,"Pittsburgh, PA, US",North America,3590,CRJ,1115,B ,,50.0
+US Airways,Air Wisconsin,"Pittsburgh, PA, US",North America,3591,CRJ,1810,B ,,50.0
+US Airways,Air Wisconsin,"Pittsburgh, PA, US",North America,3622,CRJ,1737,B ,50.0,
+US Airways,Air Wisconsin,"Pittsburgh, PA, US",North America,3624,CRJ,2201,B ,50.0,
+US Airways,Air Wisconsin,"Richmond, VA, US",North America,3636,CRJ,1930,B ,,50.0
+US Airways,Air Wisconsin,"Richmond, VA, US",North America,3732,CRJ,1336,B ,50.0,
+US Airways,Air Wisconsin,"Richmond, VA, US",North America,3742,CRJ,0820,B ,50.0,
+US Airways,Air Wisconsin,"Richmond, VA, US",North America,3881,CRJ,0855,B ,,50.0
+US Airways,Air Wisconsin,"Richmond, VA, US",North America,4041,CRJ,1406,B ,,50.0
+US Airways,Air Wisconsin,"Richmond, VA, US",North America,4082,CRJ,1859,B ,50.0,
+US Airways,Air Wisconsin,"Rochester, NY, US",North America,3809,CRJ,0850,B ,,50.0
+US Airways,Air Wisconsin,"Rochester, NY, US",North America,3818,CRJ,2009,B ,50.0,
+US Airways,Air Wisconsin,"Rochester, NY, US",North America,3819,CRJ,2045,B ,,50.0
+US Airways,Air Wisconsin,"Rochester, NY, US",North America,3882,CRJ,0816,B ,50.0,
+US Airways,Air Wisconsin,"Rochester, NY, US",North America,3916,CRJ,1629,B ,50.0,
+US Airways,Air Wisconsin,"Rochester, NY, US",North America,4071,CRJ,1659,B ,,50.0
+US Airways,Midwest Airlines,"Pittsburgh, PA, US",North America,3103,E75,1340,B ,,80.0
+US Airways,Midwest Airlines,"Pittsburgh, PA, US",North America,3119,E75,0905,B ,,80.0
+US Airways,Midwest Airlines,"Pittsburgh, PA, US",North America,3220,E75,0832,B ,80.0,
+US Airways,Midwest Airlines,"Pittsburgh, PA, US",North America,3222,E75,1308,B ,80.0,
+US Airways,Midwest Airlines,"Pittsburgh, PA, US",North America,3393,E70,1855,B ,69.0,
+US Airways,Midwest Airlines,"Pittsburgh, PA, US",North America,3415,E70,1930,B ,,69.0
+US Airways,Piedmont,"Harrisburg, PA, US",North America,4193,DH8,1945,B ,,37.0
+US Airways,Piedmont,"Harrisburg, PA, US",North America,4545,DH8,0830,B ,,37.0
+US Airways,Piedmont,"Harrisburg, PA, US",North America,4546,DH8,0816,B ,37.0,
+US Airways,Piedmont,"Harrisburg, PA, US",North America,4614,DH8,1900,B ,37.0,
+US Airways,Piedmont,"Syracuse, NY, US",North America,4449,DH8,0855,B ,,37.0
+US Airways,Piedmont,"Syracuse, NY, US",North America,4450,DH8,0758,B ,37.0,
+US Airways,Piedmont,"Syracuse, NY, US",North America,4451,DH8,1505,B ,,37.0
+US Airways,Piedmont,"Syracuse, NY, US",North America,4453,DH8,1930,B ,,37.0
+US Airways,Piedmont,"Syracuse, NY, US",North America,4454,DH8,1221,B ,37.0,
+US Airways,Piedmont,"Syracuse, NY, US",North America,4456,DH8,1843,B ,37.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,110,321,0800,B ,,183.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1176,320,2026,B ,150.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1178,321,2203,B ,183.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1475,320,1911,B ,,150.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1485,321,0600,B ,,183.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1488,320,1825,B ,150.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1543,321,1435,B ,,183.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1667,319,1715,B ,,124.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1770,319,1632,B ,124.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1800,320,1142,B ,150.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1801,320,1245,B ,,150.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1813,319,0500,B ,,124.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1822,321,1346,B ,183.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1982,734,1008,B ,144.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,1985,734,1115,B ,,144.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,303,320,0945,B ,,150.0
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,572,321,0025,B ,183.0,
+US Airways,US Airways,"Charlotte-Douglas, NC, US",North America,64,320,1529,B ,150.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2114,319,0703,B ,124.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2115,E90,0600,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2116,E90,0807,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2117,E90,0700,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2118,E90,0909,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2119,319,0800,B ,,124.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2120,E90,1023,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2121,E90,0900,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2122,E90,1116,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2123,E90,1000,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2124,E90,1217,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2125,E90,1100,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2126,E90,1313,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2127,E90,1200,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2128,E90,1412,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2129,E90,1300,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2130,E90,1513,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2131,E90,1400,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2132,E90,1618,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2133,E90,1500,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2134,E90,1723,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2135,E90,1600,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2136,E90,1819,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2137,E90,1700,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2138,E90,1918,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2139,E90,1800,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2140,E90,2020,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2141,E90,1900,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2142,E90,2117,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2143,E90,2000,B ,,99.0
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2144,E90,2216,B ,99.0,
+US Airways,US Airways,"New York-La Guardia, NY, US",North America,2145,E90,0645,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1097,E90,2030,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1112,E90,0940,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1406,319,2137,B ,124.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1419,320,0730,B ,,150.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1467,E90,0930,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1604,E90,1232,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1605,E90,1330,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1607,E90,1530,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1612,E90,0834,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1634,E90,1540,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1638,E90,1333,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1701,E90,0530,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1716,E90,1033,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1720,E90,1143,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1727,E90,1230,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1775,E90,1430,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1811,E90,0830,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1812,E90,0729,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1819,E90,1030,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1825,E90,1630,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1827,E90,1130,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1829,E90,1930,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1845,E90,1730,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,1876,E90,1751,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1878,E90,1637,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1886,E90,1958,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1888,319,2047,B ,124.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,1937,319,0700,B ,,124.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,728,E90,1830,B ,,99.0
+US Airways,US Airways,"Philadelphia, PA, US",North America,729,E90,1842,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,880,E90,2358,B ,99.0,
+US Airways,US Airways,"Philadelphia, PA, US",North America,970,E90,1431,B ,99.0,
+US Airways,US Airways,"Phoenix, AZ, US",North America,220,320,1704,B ,150.0,
+US Airways,US Airways,"Phoenix, AZ, US",North America,221,319,2016,B ,124.0,
+US Airways,US Airways,"Phoenix, AZ, US",North America,224,319,2304,B ,124.0,
+US Airways,US Airways,"Phoenix, AZ, US",North America,225,320,1630,B ,,150.0
+US Airways,US Airways,"Phoenix, AZ, US",North America,267,319,1005,B ,,124.0
+US Airways,US Airways,"Phoenix, AZ, US",North America,600,319,0615,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2020,319,0749,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2021,319,0600,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2022,319,0854,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2023,319,0700,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2024,319,1001,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2025,319,0800,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2026,319,1056,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2027,319,0900,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2028,319,1157,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2029,319,1000,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2030,319,1257,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2031,319,1100,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2032,319,1400,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2033,319,1200,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2034,319,1457,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2035,319,1300,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2036,319,1558,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2037,319,1400,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2038,319,1701,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2039,319,1500,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2040,319,1804,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2041,319,1600,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2042,319,1907,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2043,319,1700,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2044,319,2003,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2045,319,1800,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2046,319,2101,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2047,319,1900,B ,,124.0
+US Airways,US Airways,"Washington-National, DC, US",North America,2048,319,2224,B ,124.0,
+US Airways,US Airways,"Washington-National, DC, US",North America,2049,319,2000,B ,,124.0
+Virgin America,Virgin America,"Los Angeles, CA, US",North America,360,320,1645,B ,149.0,
+Virgin America,Virgin America,"Los Angeles, CA, US",North America,363,320,0700,B ,,149.0
+Virgin America,Virgin America,"Los Angeles, CA, US",North America,365,320,1100,B ,,149.0
+Virgin America,Virgin America,"Los Angeles, CA, US",North America,366,320,2345,B ,149.0,
+Virgin America,Virgin America,"Los Angeles, CA, US",North America,367,320,1740,B ,,149.0
+Virgin America,Virgin America,"Los Angeles, CA, US",North America,370,320,0545,B ,149.0,
+Virgin America,Virgin America,"San Francisco, CA, US",North America,1354,320,2245,B ,149.0,
+Virgin America,Virgin America,"San Francisco, CA, US",North America,1355,320,1010,B ,,149.0
+Virgin America,Virgin America,"San Francisco, CA, US",North America,350,319,1530,B ,122.0,
+Virgin America,Virgin America,"San Francisco, CA, US",North America,351,319,0835,B ,,122.0
+Virgin America,Virgin America,"San Francisco, CA, US",North America,352,319,1825,B ,122.0,
+Virgin America,Virgin America,"San Francisco, CA, US",North America,353,319,1625,B ,,122.0
+Virgin America,Virgin America,"San Francisco, CA, US",North America,357,319,1925,B ,,122.0
+Virgin America,Virgin America,"San Francisco, CA, US",North America,358,319,0720,B ,122.0,
+Virgin Atlantic Airways,Virgin Atlantic Airways,"London-Heathrow, EN, GB",Europe,11,346,1735,E ,308.0,
+Virgin Atlantic Airways,Virgin Atlantic Airways,"London-Heathrow, EN, GB",Europe,12,346,1945,E ,,308.0
