@@ -7,28 +7,30 @@ public class Flight implements Comparable<Flight> {
 	Date aTime;			// Time of arrival
 	Date dTime;			// Time of departure
 	int capacity;		// Total carrying capacity
-	int aPax;			// # arriving passengers
-	int dPax;			// # departing passengers
+	int pax;			// # passengers
 	String equipType;	// The type of aircraft
-	long delay = 0;	// Time delay in minutes
+	long delay = 0;	    // Time delay in minutes
 	
 	public Date realATime;
 	public Date realDTime;
 	Gate gate;			// Gate that the flight is assigned to
 	int priority;		// Priority in gate assignment algorithm
 	
-	public Flight(int _id, Airline _airline, Date _aTime, Date _dTime, int _capacity, int _aPax, int _dPax, String _equipType){
+	public Flight(int _id, Airline _airline, Date _aTime, Date _dTime, int _capacity, int _pax, String _equipType){
 		id = _id;
 		airline = _airline;
 		aTime = _aTime;
 		dTime = _dTime;
 		capacity = _capacity;
-		aPax = _aPax;
-		dPax = _dPax;
+		pax = _pax;
 		equipType = _equipType;
 		
 		realATime = new Date(aTime.getTime()+delay*60000);
 		realDTime = new Date(dTime.getTime()+delay*60000);
+		}
+
+	public Flight(String carrier, String operator, String origin, String continent, String id, String equipType, String arrivalTime, String destTerm, String isInbound, String pax){
+		this.id = Integer.parseInt(id);
 		}
 	
 	public Flight(int _id, Date _aTime, Date _dTime){
@@ -37,15 +39,14 @@ public class Flight implements Comparable<Flight> {
 		aTime = _aTime;
 		dTime = _dTime;
 		capacity = 1000;
-		aPax = 1000;
-		dPax = 1000;
+		pax = 1000;
 		equipType = "DUMMY";
 		
 		realATime = new Date(aTime.getTime()+delay*60000);
 		realDTime = new Date(dTime.getTime()+delay*60000);
 		}
 	public static Flight copy(Flight f){
-		return new Flight(f.id,f.airline,f.aTime,f.dTime,f.capacity,f.aPax,f.dPax,f.equipType);
+		return new Flight(f.id,f.airline,f.aTime,f.dTime,f.capacity,f.pax,f.equipType);
 	}
 	
 	public void setDelay(){

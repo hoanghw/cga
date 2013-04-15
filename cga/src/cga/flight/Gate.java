@@ -88,5 +88,4 @@ public class Gate {
 		g.deletePeriods(ref.getTime());
 		System.out.println(g.periods.isEmpty());
 	}
-
 }
