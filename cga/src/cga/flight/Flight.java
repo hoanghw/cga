@@ -9,7 +9,7 @@ public class Flight implements Comparable<Flight> {
 	int capacity;		// Total carrying capacity
 	int pax;			// # passengers
 	String equipType;	// The type of aircraft
-	long delay = 0;	    // Time delay in minutes
+	int delay = 0;	    // Time delay in minutes
 	
 	public Date realATime;
 	public Date realDTime;
@@ -29,8 +29,7 @@ public class Flight implements Comparable<Flight> {
 		realDTime = new Date(dTime.getTime()+delay*60000);
 		}
 
-	public Flight(String carrier, String operator, String origin, String continent, String id, String equipType, String arrivalTime, String destTerm, String isInbound, String pax){
-		this.id = Integer.parseInt(id);
+	public Flight(int _id, Airline _airline, int _aTime, int _pax, String _equipType, int delay)
 		}
 	
 	public Flight(int _id, Date _aTime, Date _dTime){
