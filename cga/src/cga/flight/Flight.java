@@ -7,29 +7,31 @@ public class Flight implements Comparable<Flight> {
 	Date aTime;			// Time of arrival
 	Date dTime;			// Time of departure
 	int capacity;		// Total carrying capacity
-	int aPax;			// # arriving passengers
-	int dPax;			// # departing passengers
+	int aPax;			// # passengers
+	int dPax;
 	String equipType;	// The type of aircraft
-	long delay = 0;	// Time delay in minutes
+	long delay = 0;	    // Time delay in minutes
 	
 	public Date realATime;
 	public Date realDTime;
 	Gate gate;			// Gate that the flight is assigned to
 	int priority;		// Priority in gate assignment algorithm
 	
-	public Flight(int _id, Airline _airline, Date _aTime, Date _dTime, int _capacity, int _aPax, int _dPax, String _equipType){
+	public Flight(int _id, Airline _airline, Date _aTime, Date _dTime, int _capacity, int _pax, String _equipType){
 		id = _id;
 		airline = _airline;
 		aTime = _aTime;
 		dTime = _dTime;
 		capacity = _capacity;
-		aPax = _aPax;
-		dPax = _dPax;
+		aPax = _pax;
+		dPax = _pax;
 		equipType = _equipType;
 		
 		realATime = new Date(aTime.getTime()+delay*60000);
 		realDTime = new Date(dTime.getTime()+delay*60000);
 		}
+
+
 	
 	public Flight(int _id, Date _aTime, Date _dTime){
 		id = _id;
