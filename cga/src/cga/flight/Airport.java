@@ -11,6 +11,7 @@ public class Airport{
 		name = _name;
 		gates = _gates; //DANGER?!
 	}
+	
 		/**
 	 * @param args
 	 */

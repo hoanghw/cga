@@ -23,6 +23,12 @@ public class MappingGate {
 			map.put(gates[i], new ArrayList<Flight>());
 		}
 	}
+	public MappingGate(ArrayList<Gate> gates){
+		map = new HashMap<Gate,List<Flight>>();
+		for (int i = 0; i<gates.size();i++){
+			map.put(gates.get(i), new ArrayList<Flight>());
+		}
+	}
 	public HashMap<Gate,Long> calDelay(){
 		HashMap<Gate,Long> delay = new HashMap<Gate,Long>(); //K,V: Gate g, Total Delay at Gate g
 		for (Map.Entry<Gate, List<Flight>> entry : map.entrySet()) {
@@ -42,7 +48,6 @@ public class MappingGate {
 		    		copyFlights[i+1].realDTime = new Date(copyFlights[i+1].realDTime.getTime() + minutesDelay*60000);
 		    	}
 		    }
-		    
 		    delay.put(gate,totalDelay);
 		}
 		return delay;
@@ -71,10 +76,10 @@ public class MappingGate {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Gate[] gates = new Gate[4];
+		ArrayList<Gate> gates = new ArrayList<Gate>();
 		Flight[] flights = new Flight[10];
-		for (int i=0; i<gates.length; i++){
-			gates[i] = new Gate();
+		for (int i=0; i<gates.size(); i++){
+			gates.add(new Gate());
 		}
 		MappingGate m = new MappingGate(gates);
 		
@@ -83,6 +88,9 @@ public class MappingGate {
 			GregorianCalendar end = new GregorianCalendar(2013,12,31,21-i,0);
 			flights[i] = new Flight(i,start.getTime(),end.getTime());
 		}
+		
+		Airline fr = new Airline("frontier");
+		
 		m = Util.populateGates(gates, flights);
 		System.out.println(m);
 		System.out.println("Total delay at gate = "+m.calDelay());

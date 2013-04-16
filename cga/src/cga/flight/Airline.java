@@ -16,11 +16,15 @@ public class Airline {
 		ArrayList<Gate> allGates = airport.gates;
 		ArrayList<Gate> airportGates = new ArrayList<Gate>();
 		for(int i = 0; i < allGates.size(); i++) {
-			if (allGates.get(i).airline.equals(name)) {
+			if (allGates.get(i).airlines.contains(this)) {
 				airportGates.add(allGates.get(i));
 			}
 		}
 		return airportGates;
+	}
+	
+	public boolean equals(Airline a){
+		return name.equals(a.name);
 	}
 	
 		/**

@@ -2,10 +2,8 @@ package cga.flight;
 import java.util.*;
 
 public class Gate {
-	Set compatible;
-	Airline airline;
 	String name;
-	
+	ArrayList<Airline> airlines;
 	ArrayList<Period> periods; //list of all the periods when the Gate is not available
 	
 	static Random gen = new Random();
@@ -14,10 +12,18 @@ public class Gate {
 		periods = new ArrayList<Period>();
 		name = "G"+ gen.nextInt(100);
 	}
+	
 	public Gate(Airline _airline){
-		airline = _airline;
 		periods = new ArrayList<Period>();
 		name = "G"+ gen.nextInt(100);
+		airlines = new ArrayList<Airline>();
+		airlines.add(_airline);
+	}
+	
+	public Gate(String _name, ArrayList<Airline> _airlines){
+		periods = new ArrayList<Period>();
+		name = _name;
+		airlines = _airlines;
 	}
 	
 	//return true if assignment succeeds and update periods variable
@@ -30,6 +36,19 @@ public class Gate {
 		}
 		periods.add(newPeriod);
 		return true;		
+	}
+	public boolean forceAssign(Flight f){
+		Period period = new Period(f.realATime,f.realDTime);
+		for (Period p : periods){
+			if (Period.isOverLap(period, p)){
+				long delay = p.start.getTime()-period.start.getTime();
+				f.delay=delay/60000;
+				periods.add(new Period(new Date(f.realATime.getTime()+delay),new Date(f.realDTime.getTime()+delay)));
+				return true;
+			}
+		}
+		periods.add(period);
+		return true;	
 	}
 	
 	//Given flight f, return time it has to wait to access gate.
@@ -63,9 +82,7 @@ public class Gate {
 	}
 
 	public boolean canBeAssigned(Flight flight) {
-		int id = flight.id;
-		String flightAirline = flight.airline.name;
-		return compatible.contains(id)&((airline.equals(flightAirline)|(airline.equals("collaborative"))));
+		return this.airlines.contains(flight.airline);
 	}
 	
 	@Override

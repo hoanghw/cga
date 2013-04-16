@@ -10,7 +10,7 @@ import cga.flight.Gate;
 public class Util {
 	
 	//naive populate gates with flights
-	public static MappingGate populateGates(Gate[] gates, Flight[] flights){
+	public static MappingGate populateGates(ArrayList<Gate> gates, Flight[] flights){
 		MappingGate result = new MappingGate(gates);
 		
 		IndexMinPQ<Flight> pq = new IndexMinPQ<Flight>(flights.length);
@@ -29,29 +29,50 @@ public class Util {
 	
 	//given a flight, determine the best gate solution
 	//for now: assign flight to the least busy gate & least waitTimeAtGate
-	public static Gate findGate(Gate[] gates, Flight f){
-		IndexMinPQ<Long> pq = new IndexMinPQ<Long>(gates.length);
-		for (int i=0;i<gates.length;i++){
-			pq.insert(i, gates[i].totalOccupiedTime());
+	public static Gate findGate(ArrayList<Gate> gates, Flight f){
+		IndexMinPQ<Long> pq = new IndexMinPQ<Long>(gates.size());
+		for (int i=0;i<gates.size();i++){
+			pq.insert(i, gates.get(i).totalOccupiedTime());
 		}
 		
 		long leastWaitTime = 777777;
 		int gateIndex = 0;
 		while (!pq.isEmpty()){
 			int i = pq.delMin();
-			if (gates[i].assignFlight(f)){
-				return gates[i];
+			if (gates.get(i).assignFlight(f)){
+				return gates.get(i);
 			}
 			else {
-				if (leastWaitTime < gates[i].waitTimeAtGate(f)){
-					leastWaitTime = gates[i].waitTimeAtGate(f);
+				if (leastWaitTime < gates.get(i).waitTimeAtGate(f)){
+					leastWaitTime = gates.get(i).waitTimeAtGate(f);
 					gateIndex = i;
 				}
 			}
 				
 		}
-		return gates[gateIndex];
+		return gates.get(gateIndex);
 	}
+	
+	public static MappingGate populateGates(ArrayList<Gate> gates, Flight[] flights, boolean restricted){
+		if (!restricted) return populateGates(gates, flights);
+		
+		MappingGate result = new MappingGate(gates);
+		
+		IndexMinPQ<Flight> pq = new IndexMinPQ<Flight>(flights.length);
+		for (int i=0;i<flights.length;i++){
+			pq.insert(i, flights[i]);
+		}
+		
+		while (!pq.isEmpty()){
+			int i = pq.delMin();
+			ArrayList<Gate> g = flights[i].getPossibleGates(gates);
+			List<Flight> value = result.map.get(findGate(g,flights[i]));
+			value.add(flights[i]);
+		}
+		
+		return result;
+	}
+	
 	
 	public static void parser(){
 		

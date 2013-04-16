@@ -36,16 +36,31 @@ public class Flight implements Comparable<Flight> {
 		airline = new Airline("DUMMY");
 		aTime = _aTime;
 		dTime = _dTime;
-		capacity = 1000;
-		aPax = 1000;
-		dPax = 1000;
+		capacity = 100;
+		aPax = 100;
+		dPax = 100;
 		equipType = "DUMMY";
 		
 		realATime = new Date(aTime.getTime()+delay*60000);
 		realDTime = new Date(dTime.getTime()+delay*60000);
 		}
+	
+	public Flight(int _id, Date _realATime, Date _realDTime, Airline _airline){
+		id = _id;
+		airline = _airline;
+		aTime = _realATime;
+		dTime = _realDTime;
+		capacity = 100;
+		aPax = 100;
+		dPax = 100;
+		equipType = "DUMMY";
+		
+		realATime = _realATime;
+		realDTime = _realDTime;
+	}
+	
 	public static Flight copy(Flight f){
-		return new Flight(f.id,f.airline,f.aTime,f.dTime,f.capacity,f.aPax,f.dPax,f.equipType);
+		return new Flight(f.id,f.realATime,f.realDTime,f.airline);
 	}
 	
 	public void setDelay(){
@@ -60,6 +75,26 @@ public class Flight implements Comparable<Flight> {
 	public Date getDepartureTime(){
 		//dTime + delay
 		return realDTime;
+	}
+	
+	public ArrayList<Gate> getPossibleGates(ArrayList<Gate> gates){
+		ArrayList<Gate> result = new ArrayList<Gate>();
+		for (Gate g: gates){
+			if (g.canBeAssigned(this)){
+				result.add(g);
+			}
+		}
+		return result;
+	}
+	
+	public ArrayList<Gate> getPossibleGates(Gate[] g){
+		ArrayList<Gate> result = new ArrayList<Gate>();
+		for (int i=0;i<g.length;i++){
+			if (g[i].airlines.contains(this.airline)){
+				result.add(g[i]);
+			}
+		}
+		return result;
 	}
 	
 	@Override
