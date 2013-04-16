@@ -11,7 +11,7 @@ public class Parser {
     File file;	
 
     public static void main(String[] args) throws FileNotFoundException {
-    	Parser parser = new Parser("C:\\Users\\Alex Cuevas\\Documents\\GitHub\\cga\\cga\\src\\cga\\flight\\BOS.txt");
+    	Parser parser = new Parser("/home/hoang/git/cga/cga/src/cga/DEN_8-16-12_Big.csv");
     	ArrayList<Flight> flights = parser.parseDenverBig();
     	System.out.printf("First Flight ID: %d\n", flights.get(1).id);
     }
@@ -168,11 +168,13 @@ public class Parser {
 					Boolean isArrival = m.group(3).equals("Arrival"); // Else, departure!
 					String equipType = m.group(6);
 
-					int mins = 90;
+					int mins = 60;
 					if (name.equals("DAL"))
 						mins = 50;
 					else if (name.equals("SWA"))
 						mins = 35;
+					
+	
 					
 					Date dTime, aTime;
 					if (!isArrival) {
@@ -181,7 +183,7 @@ public class Parser {
 						int actWheelsOff = parseTime(m.group(9));
 						int taxiOut = Integer.parseInt(m.group(10));
 						int gateDepartDelay = Integer.parseInt(m.group(15));
-						int taxiOutDelay = Integer.parseInt(m.group(16));
+						//int taxiOutDelay = Integer.parseInt(m.group(16));
 						int airportDepartDelay = Integer.parseInt(m.group(17));
 
 						GregorianCalendar aCalendar = new GregorianCalendar(2012,8,16,parseHour(m.group(8)),parseMin(m.group(8)));

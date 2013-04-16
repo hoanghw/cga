@@ -9,24 +9,6 @@ import cga.flight.Gate;
 
 public class Util {
 	
-	//naive populate gates with flights
-	public static MappingGate populateGates(ArrayList<Gate> gates, Flight[] flights){
-		MappingGate result = new MappingGate(gates);
-		
-		IndexMinPQ<Flight> pq = new IndexMinPQ<Flight>(flights.length);
-		for (int i=0;i<flights.length;i++){
-			pq.insert(i, flights[i]);
-		}
-		
-		while (!pq.isEmpty()){
-			int i = pq.delMin();
-			List<Flight> value = result.map.get(findGate(gates,flights[i]));
-			value.add(flights[i]);
-		}
-		
-		return result;
-	}
-	
 	//given a flight, determine the best gate solution
 	//for now: assign flight to the least busy gate & least waitTimeAtGate
 	public static Gate findGate(ArrayList<Gate> gates, Flight f){
@@ -47,29 +29,32 @@ public class Util {
 					leastWaitTime = gates.get(i).waitTimeAtGate(f);
 					gateIndex = i;
 				}
-			}
-				
+			}		
 		}
+		gates.get(gateIndex).forceAssign(f);
 		return gates.get(gateIndex);
 	}
 	
-	public static MappingGate populateGates(ArrayList<Gate> gates, Flight[] flights, boolean restricted){
-		if (!restricted) return populateGates(gates, flights);
-		
+	//naive populate gates with flights
+	//restricted: TRUE - flight is only mapped to allowed gates
+	public static MappingGate populateGates(ArrayList<Gate> gates, ArrayList<Flight> flights, boolean restricted){	
 		MappingGate result = new MappingGate(gates);
 		
-		IndexMinPQ<Flight> pq = new IndexMinPQ<Flight>(flights.length);
-		for (int i=0;i<flights.length;i++){
-			pq.insert(i, flights[i]);
+		IndexMinPQ<Flight> pq = new IndexMinPQ<Flight>(flights.size());
+		for (int i=0;i<flights.size();i++){
+			pq.insert(i, flights.get(i));
 		}
 		
 		while (!pq.isEmpty()){
 			int i = pq.delMin();
-			ArrayList<Gate> g = flights[i].getPossibleGates(gates);
-			List<Flight> value = result.map.get(findGate(g,flights[i]));
-			value.add(flights[i]);
+			ArrayList<Gate> g = new ArrayList<Gate>();
+			if (restricted)
+				g = flights.get(i).getPossibleGates(gates);
+			else 
+				g = gates;
+			List<Flight> value = result.map.get(findGate(g,flights.get(i)));
+			value.add(flights.get(i));
 		}
-		
 		return result;
 	}
 	

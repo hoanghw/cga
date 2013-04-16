@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Gate {
 	String name;
-	ArrayList<Airline> airlines;
+	ArrayList<String> airlines;
 	ArrayList<Period> periods; //list of all the periods when the Gate is not available
 	
 	static Random gen = new Random();
@@ -11,16 +11,17 @@ public class Gate {
 	public Gate(){
 		periods = new ArrayList<Period>();
 		name = "G"+ gen.nextInt(100);
+		airlines = new ArrayList<String>();
 	}
 	
 	public Gate(Airline _airline){
 		periods = new ArrayList<Period>();
 		name = "G"+ gen.nextInt(100);
-		airlines = new ArrayList<Airline>();
-		airlines.add(_airline);
+		airlines = new ArrayList<String>();
+		airlines.add(_airline.name);
 	}
 	
-	public Gate(String _name, ArrayList<Airline> _airlines){
+	public Gate(String _name, ArrayList<String> _airlines){
 		periods = new ArrayList<Period>();
 		name = _name;
 		airlines = _airlines;
@@ -41,7 +42,7 @@ public class Gate {
 		Period period = new Period(f.realATime,f.realDTime);
 		for (Period p : periods){
 			if (Period.isOverLap(period, p)){
-				long delay = p.start.getTime()-period.start.getTime();
+				long delay = p.end.getTime()-period.start.getTime();
 				f.delay=delay/60000;
 				periods.add(new Period(new Date(f.realATime.getTime()+delay),new Date(f.realDTime.getTime()+delay)));
 				return true;
@@ -50,7 +51,6 @@ public class Gate {
 		periods.add(period);
 		return true;	
 	}
-	
 	//Given flight f, return time it has to wait to access gate.
 	public long waitTimeAtGate(Flight f){
 		long time = 0;
@@ -82,7 +82,7 @@ public class Gate {
 	}
 
 	public boolean canBeAssigned(Flight flight) {
-		return this.airlines.contains(flight.airline);
+		return this.airlines.contains(flight.airline.name);
 	}
 	
 	@Override
