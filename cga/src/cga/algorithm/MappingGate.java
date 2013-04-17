@@ -142,10 +142,11 @@ public class MappingGate {
 
 		
 		double percentShared = 0; //default; do nothing
-		//percentShared = 20;
+		percentShared = 4;
 		uniformShare(gates, percentShared);
 		//smallShare(gates);
 		//termAShare(gates);
+		//int addGates = 15; addShare(gates, addGates);
 		
 		Parser parser = new Parser("C:\\Users\\Alex Cuevas\\Documents\\GitHub\\cga\\cga\\src\\cga\\DEN 8-16-12_Big_edited.csv");
 		ArrayList<Flight> f = new ArrayList<Flight>();
@@ -306,8 +307,7 @@ public class MappingGate {
 		for (int i=0; i<small_shared; i++){
 			ArrayList<String> a = new ArrayList<String>();
 			a.add("ASA");a.add("SKW");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
-			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("GLA");a.add("TRS");
-			a.add("USA");
+			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("GLA");a.add("TRS");a.add("USA");
 			Gate g = new Gate("small_share-"+i,a);
 			gates.add(g);
 		}
@@ -338,4 +338,33 @@ public class MappingGate {
 			gates.add(g);
 		}
 	}
+	public static void addShare(ArrayList<Gate> gates, int add) {
+		
+		int UAL = 42;
+		int SWA = 17;
+		int FFT = 14;
+		int DAL = 5;
+		int AAL = 3;
+		int USA = 2;
+		int VOI = 1;
+		int JBU_VOI = 1;
+		int small = 2; //AMX,ACA,ICE,DLH,CCI
+		int NKS = 1;
+		int TRS_SWA = 2;
+		int ASA = 1;
+		int BA_ICE = 1;
+		
+		int shared = add;
+		denGateSetup(gates, UAL, SWA, FFT, DAL, AAL, USA, VOI, JBU_VOI, small, NKS, TRS_SWA, ASA, BA_ICE);
+		
+		for (int i=0; i<shared; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("ASA");a.add("SKW");a.add("UAL");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
+			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("FFT");a.add("DAL");a.add("GLA");a.add("SWA");a.add("TRS");
+			a.add("USA");
+			Gate g = new Gate("share-"+i,a);
+			gates.add(g);
+		}
+	}
+	
 }
