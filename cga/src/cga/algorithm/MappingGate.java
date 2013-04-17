@@ -13,24 +13,26 @@ import cga.flight.*;
 public class MappingGate {
 	
 	Date datetime;
-	
 	HashMap<Gate,List<Flight>> map;
 	
 	public MappingGate(HashMap<Gate,List<Flight>> m){
 		map = m;
 	}
+	
 	public MappingGate(Gate[] gates){
 		map = new HashMap<Gate,List<Flight>>();
 		for (int i = 0; i<gates.length;i++){
 			map.put(gates[i], new ArrayList<Flight>());
 		}
 	}
+	
 	public MappingGate(ArrayList<Gate> gates){
 		map = new HashMap<Gate,List<Flight>>();
 		for (int i = 0; i<gates.size();i++){
 			map.put(gates.get(i), new ArrayList<Flight>());
 		}
 	}
+	
 	public HashMap<Gate,Long> calDelay(){
 		HashMap<Gate,Long> delay = new HashMap<Gate,Long>(); //K,V: Gate g, Total Delay at Gate g
 		HashMap<Gate,Integer> occupancy = new HashMap<Gate,Integer>(); //K,V: Gate g, Total Flights assigned
@@ -98,18 +100,20 @@ public class MappingGate {
 		    gateStat.add(delayAtGate);
 		}
 		
-		System.out.println("Total delay = "+totalDelay);
-		System.out.println("Total flights ="+totalFlights);
-		System.out.println("Total ungated flights ="+totalUngated);
+		System.out.println("Total Delay, "+totalDelay);
+		System.out.println("Total Flights, "+totalFlights);
+		System.out.println("Total Ungated Flights, "+totalUngated);
 		//System.out.println("Gates occupancy = "+occupancy);
 		Statistics stat = new Statistics(gateStat);
-		System.out.println("Gates Delay Mean ="+stat.getMean());
-		System.out.println("Gates Delay Variance ="+stat.getVariance());
-		System.out.println("Gates Delay StdDev ="+stat.getStdDev());
+		System.out.println("Gates Delay Mean, "+stat.getMean());
+		System.out.println("Gates Delay Variance, "+stat.getVariance());
+		System.out.println("Gates Delay StdDev, "+stat.getStdDev());
 		stat = new Statistics(flightStat);
-		System.out.println("Flights Ungated Mean ="+stat.getMean());
-		System.out.println("Flights Ungated Variance ="+stat.getVariance());
-		System.out.println("Flights Ungated StdDev ="+stat.getStdDev());
+		System.out.println("Flights Ungated Mean, "+stat.getMean());
+		System.out.println("Flights Ungated Variance, "+stat.getVariance());
+		System.out.println("Flights Ungated StdDev, "+stat.getStdDev());
+		System.out.println("Ungated Arrivals, "+arrivalCount);
+		System.out.println("Total Delay Arrivals, "+arrivalDelay);
 		return delay;
 	}
 	
@@ -127,166 +131,23 @@ public class MappingGate {
 		}
 		return s;
 	}
+	
 	public int totalUtility(){
 		return 0;
 	}
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		/*
-		Flight[] flights = new Flight[10];
-		for (int i=0; i<flights.length;i++){
-			GregorianCalendar start = new GregorianCalendar(2013,12,31,20-i,0+2*i);
-			GregorianCalendar end = new GregorianCalendar(2013,12,31,21-i,0);
-			flights[i] = new Flight(i,start.getTime(),end.getTime());
-		}*/
-		
 		
 		ArrayList<Gate> gates = new ArrayList<Gate>();
 
-		/* 
-		int UAL = 40;
-		int SWA = 17;
-		int FFT = 14;
-		int DAL = 5;
-		int AAL = 3;
-		int USA = 2;
-		int VOI = 1;
-		int JBU_VOI = 1;
-		int small = 2; //AMX,ACA,ICE,DLH
-		int NKS = 1;
-		int TRS_SWA = 2;
-		int ASA = 1;
-		int BA_ICE = 1;
 		
-		int term_A_shared = 0;
-		int shared = 0;
-		int small_shared = 0;
-		*/
-		int UAL = 40;
-		int SWA = 17;
-		int FFT = 14;
-		int DAL = 5;
-		int AAL = 3;
-		int USA = 2;
-		int VOI = 1;
-		int JBU_VOI = 1;
-		int small = 2; //AMX,ACA,ICE,DLH
-		int NKS = 1;
-		int TRS_SWA = 2;
-		int ASA = 1;
-		int BA_ICE = 1;
+		double percentShared = 0; //default; do nothing
+		//percentShared = 20;
+		uniformShare(gates, percentShared);
+		//smallShare(gates);
+		//termAShare(gates);
 		
-		int term_A_shared = 0;
-		int shared = 0;
-		int small_shared = 0;
-		
-		for (int i=0; i<UAL;i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("SKW");a.add("UAL");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");
-		Gate g = new Gate("ual"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<SWA; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("SWA");
-		Gate g = new Gate("swa"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<FFT; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("FFT");a.add("RPA");
-		Gate g = new Gate("fft"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<DAL;i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("DAL");
-		Gate g = new Gate("dal"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<AAL; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("EGF");a.add("AAL");
-		Gate g = new Gate("aal"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<USA;i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("USA");
-		Gate g = new Gate("usa"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<VOI; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("VOI");
-		Gate g = new Gate("voi"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<JBU_VOI; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("JBU");a.add("VOI");
-		Gate g = new Gate("jbu-voi"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<NKS; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("NKS");
-		Gate g = new Gate("nks"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<TRS_SWA; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("TRS");//a.add("SWA");
-		Gate g = new Gate("trs-swa"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<ASA; i++){
-		ArrayList<String> a = new ArrayList<String>();
-		a.add("ASA");
-		Gate g = new Gate("asa"+i,a);
-		gates.add(g);
-		}
-		for (int i=0; i<BA_ICE; i++){
-			ArrayList<String> a = new ArrayList<String>();
-			Gate g = new Gate("ba-ice"+i,a);
-			gates.add(g);
-		}
-		for (int i=0; i<small; i++){
-			ArrayList<String> a = new ArrayList<String>();
-			a.add("CCI");
-			Gate g = new Gate("small-"+i,a);
-			gates.add(g);
-		}
-		
-		for (int i=0; i<shared; i++){
-			ArrayList<String> a = new ArrayList<String>();
-			a.add("ASA");a.add("SKW");a.add("UAL");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
-			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("FFT");a.add("DAL");a.add("GLA");a.add("SWA");a.add("TRS");
-			a.add("USA");
-			Gate g = new Gate("share-"+i,a);
-			gates.add(g);
-		}
-		for (int i=0; i<term_A_shared; i++){
-			ArrayList<String> a = new ArrayList<String>();
-			a.add("ASA");a.add("SKW");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
-			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("FFT");a.add("GLA");a.add("TRS");
-			Gate g = new Gate("term_A_shared-"+i,a);
-			gates.add(g);
-		}
-		for (int i=0; i<small_shared; i++){
-			ArrayList<String> a = new ArrayList<String>();
-			a.add("ASA");a.add("SKW");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
-			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("GLA");a.add("TRS");
-			a.add("USA");
-			Gate g = new Gate("small_share-"+i,a);
-			gates.add(g);
-		}
-		
-		
-		Parser parser = new Parser(args[0]);
+		Parser parser = new Parser("C:\\Users\\Alex Cuevas\\Documents\\GitHub\\cga\\cga\\src\\cga\\DEN 8-16-12_Big_edited.csv");
 		ArrayList<Flight> f = new ArrayList<Flight>();
 		try {
 			f = parser.parseDenverBig();
@@ -299,5 +160,182 @@ public class MappingGate {
 		m = Util.populateGates(gates, f, true);
 		m.calDelay();
 	}
-
+	
+	public static void denGateSetup(ArrayList<Gate> gates, int UAL, int SWA, int FFT, int DAL, int AAL, int USA, int VOI, int JBU_VOI, int small, int NKS, int TRS_SWA, int ASA, int BA_ICE) {
+		for (int i=0; i<UAL;i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("SKW");a.add("UAL");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");
+			Gate g = new Gate("ual"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<SWA; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("SWA");
+			Gate g = new Gate("swa"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<FFT; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("FFT");a.add("RPA");
+			Gate g = new Gate("fft"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<DAL;i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("DAL");
+			Gate g = new Gate("dal"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<AAL; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("EGF");a.add("AAL");
+			Gate g = new Gate("aal"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<USA;i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("USA");
+			Gate g = new Gate("usa"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<VOI; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("VOI");
+			Gate g = new Gate("voi"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<JBU_VOI; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("JBU");a.add("VOI");
+			Gate g = new Gate("jbu-voi"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<NKS; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("NKS");
+			Gate g = new Gate("nks"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<TRS_SWA; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("TRS");//a.add("SWA");
+			Gate g = new Gate("trs-swa"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<ASA; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("ASA");
+			Gate g = new Gate("asa"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<BA_ICE; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			Gate g = new Gate("ba-ice"+i,a);
+			gates.add(g);
+		}
+		for (int i=0; i<small; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("CCI");
+			Gate g = new Gate("small-"+i,a);
+			gates.add(g);
+		}
+	}
+	public static void doNothing(ArrayList<Gate> gates) {
+		int UAL = 42;
+		int SWA = 17;
+		int FFT = 14;
+		int DAL = 5;
+		int AAL = 3;
+		int USA = 2;
+		int VOI = 1;
+		int JBU_VOI = 1;
+		int small = 2; //AMX,ACA,ICE,DLH,CCI
+		int NKS = 1;
+		int TRS_SWA = 2;
+		int ASA = 1;
+		int BA_ICE = 1;
+		
+		denGateSetup(gates, UAL, SWA, FFT, DAL, AAL, USA, VOI, JBU_VOI, small, NKS, TRS_SWA, ASA, BA_ICE);
+	}
+	public static void uniformShare(ArrayList<Gate> gates, double percent) {
+		percent *= .01;
+		int UAL 		= (int) Math.round(42*(1-percent));
+		int SWA 		= (int) Math.round(17*(1-percent));
+		int FFT 		= (int) Math.round(14*(1-percent));
+		int DAL 		= (int) Math.round( 5*(1-percent));
+		int AAL 		= (int) Math.round( 3*(1-percent));
+		int USA 		= (int) Math.round( 2*(1-percent));
+		int VOI 		= (int) Math.round( 1*(1-percent));
+		int JBU_VOI 	= (int) Math.round( 1*(1-percent));
+		int small 		= (int) Math.round( 2*(1-percent)); //AMX,ACA,ICE,DLH,CCI
+		int NKS 		= (int) Math.round( 1*(1-percent));
+		int TRS_SWA 	= (int) Math.round( 2*(1-percent));
+		int ASA 		= (int) Math.round( 1*(1-percent));
+		int BA_ICE 		= (int) Math.round( 1*(1-percent));
+		
+		int shared = 92 - (UAL+SWA+FFT+DAL+AAL+USA+VOI+JBU_VOI+small+NKS+TRS_SWA+ASA+BA_ICE);
+		denGateSetup(gates, UAL, SWA, FFT, DAL, AAL, USA, VOI, JBU_VOI, small, NKS, TRS_SWA, ASA, BA_ICE);
+		
+		for (int i=0; i<shared; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("ASA");a.add("SKW");a.add("UAL");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
+			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("FFT");a.add("DAL");a.add("GLA");a.add("SWA");a.add("TRS");
+			a.add("USA");
+			Gate g = new Gate("share-"+i,a);
+			gates.add(g);
+		}
+	}
+	public static void smallShare(ArrayList<Gate> gates) {
+		int UAL = 42;
+		int SWA = 17;
+		int FFT = 14;
+		int DAL = 5;
+		int AAL = 0;
+		int USA = 0;
+		int VOI = 0;
+		int JBU_VOI = 0;
+		int small = 0; //AMX,ACA,ICE,DLH,CCI
+		int NKS = 0;
+		int TRS_SWA = 0;
+		int ASA = 0;
+		int BA_ICE = 0;
+	
+		int small_shared = 14;
+		denGateSetup(gates, UAL, SWA, FFT, DAL, AAL, USA, VOI, JBU_VOI, small, NKS, TRS_SWA, ASA, BA_ICE);
+		
+		for (int i=0; i<small_shared; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("ASA");a.add("SKW");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
+			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("GLA");a.add("TRS");
+			a.add("USA");
+			Gate g = new Gate("small_share-"+i,a);
+			gates.add(g);
+		}
+	}
+	public static void termAShare(ArrayList<Gate> gates) {
+		int UAL = 42;
+		int SWA = 17;
+		int FFT = 0;
+		int DAL = 5;
+		int AAL = 0;
+		int USA = 2;
+		int VOI = 0;
+		int JBU_VOI = 0;
+		int small = 0; //AMX,ACA,ICE,DLH,CCI
+		int NKS = 0;
+		int TRS_SWA = 0;
+		int ASA = 0;
+		int BA_ICE = 0;
+	
+		int term_A_shared = 26;
+		denGateSetup(gates, UAL, SWA, FFT, DAL, AAL, USA, VOI, JBU_VOI, small, NKS, TRS_SWA, ASA, BA_ICE);
+		
+		for (int i=0; i<term_A_shared; i++){
+			ArrayList<String> a = new ArrayList<String>();
+			a.add("ASA");a.add("SKW");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
+			a.add("NKS");a.add("JBU");a.add("VOI");a.add("CCI");a.add("FFT");a.add("GLA");a.add("TRS");
+			Gate g = new Gate("term_A_shared-"+i,a);
+			gates.add(g);
+		}
+	}
 }

@@ -20,7 +20,7 @@ public class Util {
 			pq.insert(i, gates.get(i).totalOccupiedTime());
 		}
 		
-		long leastWaitTime = 777777;
+		long leastWaitTime = Long.MAX_VALUE;
 		int gateIndex = 0;
 		while (!pq.isEmpty()){
 			int i = pq.delMin();

@@ -12,7 +12,7 @@ public class Flight implements Comparable<Flight> {
 	String equipType;	// The type of aircraft
 	public long delay = 0;	    // Time delay in minutes
 	
-	public boolean arrival;
+	public boolean isArrival;
 	
 	public Date realATime;
 	public Date realDTime;
@@ -103,10 +103,10 @@ public class Flight implements Comparable<Flight> {
 		return (this.realATime.getTime()-this.aTime.getTime())/60000;
 	}
 	public void setArrival(boolean a){
-		this.arrival=a;
+		this.isArrival=a;
 	}
 	public boolean isArrival(){
-		return arrival;
+		return isArrival;
 	}
 	@Override
     public int compareTo(Flight otherFlight){

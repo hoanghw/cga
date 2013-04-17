@@ -165,16 +165,14 @@ public class Parser {
 					String name = m.group(1);
 					Airline airline = new Airline(name);
 					int id = Integer.parseInt(m.group(2));
-					Boolean isArrival = m.group(3).equals("Arrival"); // Else, departure!
+					Boolean isArrival = m.group(3).equals("1"); // Else, departure!
 					String equipType = m.group(6);
 
-					int mins = 45;
+					int mins = 50;
 					if (name.equals("DAL"))
-						mins = 25;
+						mins = 30;
 					else if (name.equals("SWA"))
 						mins = 20;
-					
-	
 					
 					Date dTime, aTime;
 					if (!isArrival) {
