@@ -143,6 +143,7 @@ public class MappingGate {
 			flights[i] = new Flight(i,start.getTime(),end.getTime());
 		}*/
 		
+		
 		ArrayList<Gate> gates = new ArrayList<Gate>();
 
 		/* 
@@ -253,13 +254,13 @@ public class MappingGate {
 			Gate g = new Gate("ba-ice"+i,a);
 			gates.add(g);
 		}
-		
 		for (int i=0; i<small; i++){
 			ArrayList<String> a = new ArrayList<String>();
-			a.add("VOI");a.add("CCI");
+			a.add("CCI");
 			Gate g = new Gate("small-"+i,a);
 			gates.add(g);
 		}
+		
 		for (int i=0; i<shared; i++){
 			ArrayList<String> a = new ArrayList<String>();
 			a.add("ASA");a.add("SKW");a.add("UAL");a.add("ASQ");a.add("RPA");a.add("TCF");a.add("GJS");a.add("EGF");a.add("AAL");
@@ -284,7 +285,8 @@ public class MappingGate {
 			gates.add(g);
 		}
 		
-		Parser parser = new Parser("/home/hoang/git/cga/cga/src/cga/DEN_8-16-12_Big.csv");
+		
+		Parser parser = new Parser(args[0]);
 		ArrayList<Flight> f = new ArrayList<Flight>();
 		try {
 			f = parser.parseDenverBig();
