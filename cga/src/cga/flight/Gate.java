@@ -4,7 +4,7 @@ import java.util.*;
 public class Gate {
 	String name;
 	ArrayList<String> airlines;
-	ArrayList<Period> periods; //list of all the periods when the Gate is not available
+	public ArrayList<Period> periods; //list of all the periods when the Gate is not available
 	
 	static Random gen = new Random();
 	
@@ -43,11 +43,16 @@ public class Gate {
 		for (Period p : periods){
 			if (Period.isOverLap(period, p)){
 				long delay = p.end.getTime()-period.start.getTime();
+				//System.out.println("Flight Schedule: " + f);
+				//System.out.println("Gate overlap: " + p);
 				f.delay=delay/60000;
-				periods.add(new Period(new Date(f.realATime.getTime()+delay),new Date(f.realDTime.getTime()+delay)));
+				Period newPeriod =new Period(new Date(f.realATime.getTime()+delay),new Date(f.realDTime.getTime()+delay));
+				periods.add(newPeriod);
+				//System.out.println("New period added: " +newPeriod);
 				return true;
 			}
 		}
+		System.out.println("NOT SUPPOSED TO REACH HERE");
 		periods.add(period);
 		return true;	
 	}

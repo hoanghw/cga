@@ -10,7 +10,9 @@ public class Flight implements Comparable<Flight> {
 	int aPax;			// # passengers
 	int dPax;
 	String equipType;	// The type of aircraft
-	long delay = 0;	    // Time delay in minutes
+	public long delay = 0;	    // Time delay in minutes
+	
+	public boolean arrival;
 	
 	public Date realATime;
 	public Date realDTime;
@@ -30,8 +32,6 @@ public class Flight implements Comparable<Flight> {
 		realATime = new Date(aTime.getTime()+delay*60000);
 		realDTime = new Date(dTime.getTime()+delay*60000);
 		}
-
-
 	
 	public Flight(int _id, Date _aTime, Date _dTime){
 		id = _id;
@@ -50,8 +50,8 @@ public class Flight implements Comparable<Flight> {
 	public Flight(int _id, Date _realATime, Date _realDTime, Airline _airline){
 		id = _id;
 		airline = _airline;
-		aTime = _realATime;
-		dTime = _realDTime;
+		aTime = new Date(_realATime.getTime());
+		dTime = new Date(_realDTime.getTime());
 		capacity = 100;
 		aPax = 100;
 		dPax = 100;
@@ -98,14 +98,26 @@ public class Flight implements Comparable<Flight> {
 		}
 		return result;
 	}
-	
+	//in minutes
+	public long ungatedTime(){
+		return (this.realATime.getTime()-this.aTime.getTime())/60000;
+	}
+	public void setArrival(boolean a){
+		this.arrival=a;
+	}
+	public boolean isArrival(){
+		return arrival;
+	}
 	@Override
     public int compareTo(Flight otherFlight){
         return this.realATime.compareTo(otherFlight.realATime);
     }
 	@Override
 	public String toString(){
-		return ""+this.id;
+		if (this.delay == 0)
+			return ""+this.id+" Arr "+this.aTime+" Dep "+this.dTime+" UnGated "+this.delay;
+		else
+			return ""+this.id+" Arr "+this.aTime+" Dep "+this.dTime+" Real Arr "+this.realATime+" UNGATED "+this.delay;
 	}
 	/**
 	 * @param args

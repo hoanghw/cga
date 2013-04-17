@@ -168,11 +168,11 @@ public class Parser {
 					Boolean isArrival = m.group(3).equals("Arrival"); // Else, departure!
 					String equipType = m.group(6);
 
-					int mins = 60;
+					int mins = 45;
 					if (name.equals("DAL"))
-						mins = 50;
+						mins = 25;
 					else if (name.equals("SWA"))
-						mins = 35;
+						mins = 20;
 					
 	
 					
@@ -186,7 +186,7 @@ public class Parser {
 						//int taxiOutDelay = Integer.parseInt(m.group(16));
 						int airportDepartDelay = Integer.parseInt(m.group(17));
 
-						GregorianCalendar aCalendar = new GregorianCalendar(2012,8,16,parseHour(m.group(8)),parseMin(m.group(8)));
+						GregorianCalendar aCalendar = new GregorianCalendar(2012,8,16,parseHour(m.group(8)),parseMin(m.group(8))); //try 7 | 8
 						dTime = aCalendar.getTime();
 						aTime = new Date(dTime.getTime() - 60000*mins);
 
@@ -198,12 +198,13 @@ public class Parser {
 						//int taxiInDelay = m.group(18);
 						//int gateArrivalDelay = m.group(19);
 
-						GregorianCalendar aCalendar = new GregorianCalendar(2012,8,16,parseHour(m.group(13)),parseMin(m.group(13)));
+						GregorianCalendar aCalendar = new GregorianCalendar(2012,8,16,parseHour(m.group(12)),parseMin(m.group(12))); //try 11 | 12
 						aTime = aCalendar.getTime();
 						dTime = new Date(aTime.getTime() + 60000*mins);
 					}
 
 				    Flight flight = new Flight(id, aTime, dTime, airline);
+				    flight.setArrival(isArrival);
 					flights.add(flight);
 
 				} else {
