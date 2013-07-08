@@ -167,12 +167,14 @@ public class Parser {
 					int id = Integer.parseInt(m.group(2));
 					Boolean isArrival = m.group(3).equals("1"); // Else, departure!
 					String equipType = m.group(6);
-
-					int mins = 50;
+					
+					//normal distribution of turn-around time
+					Random rnd = new Random();
+					int mins = (int) rnd.nextGaussian()*15+60; //mean=60 mins, std=15 mins
 					if (name.equals("DAL"))
-						mins = 30;
+						mins = (int) rnd.nextGaussian()*10+30;
 					else if (name.equals("SWA"))
-						mins = 20;
+						mins = (int) rnd.nextGaussian()*5+20;
 					
 					Date dTime, aTime;
 					if (!isArrival) {
